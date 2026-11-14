@@ -138,7 +138,7 @@ def draw_badge(img, brand, alpha=1.0):
     d.text((ox + 116, oy + 76), brand["badge_text"], font=font("Inter-Medium", 23),
            fill=dim + (255,), anchor="lm")
 
-    badge = badge.rotate(-2.4, resample=Image.BICUBIC, expand=False)
+    # Badge gerade - schraeg wurde verworfen (Stefan, 14.11.2026)
     if alpha < 1.0:
         a = badge.getchannel("A").point(lambda v: int(v * alpha))
         badge.putalpha(a)
