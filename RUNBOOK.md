@@ -11,35 +11,52 @@ erreichbar über den Windsor-Connector (`connector: "instagram"`).
 1. **Repo holen.** `add_repo` für `Spuhane/reel-fabrik` (access: push),
    dann klonen, wie das Ergebnis es anweist.
 
-2. **Nächsten Post bestimmen.** `content/pool/` enthält die
-   freigegebenen Posts, `state/posted.json` die bereits
-   veröffentlichten. Nimm den ersten Post mit
-   `"status": "freigegeben"`, dessen `id` noch nicht in
-   `posted.json` steht. Reihenfolge: nach Themengebiet abwechselnd,
-   damit nicht zwei Posts desselben Gebiets aufeinanderfolgen.
+2. **Feiertag prüfen.** Fällt der heutige Tag auf den 24., 25.
+   oder 26. Dezember, den 31. Dezember oder den 1. Januar, wird
+   nichts veröffentlicht. Dann nur eine kurze Meldung an Stefan,
+   dass der Lauf wegen des Feiertags ausgesetzt hat.
 
-3. **Gegen Instagram prüfen.** Lies über den Connector die Beiträge
+3. **Nächsten Post bestimmen.** `content/pool/` enthält die
+   freigegebenen Posts, `state/posted.json` die bereits
+   veröffentlichten. Jeder Post trägt ein Feld `format`
+   (`carousel` oder `reel`) und ein Feld `order`.
+   Dienstags: der Post mit `format: "carousel"` und der kleinsten
+   `order`, der noch nicht in `posted.json` steht.
+   Donnerstags: derselbe Griff, aber `format: "reel"`.
+   Ist für den jeweiligen Wochentag keiner mehr übrig, nimm den
+   nächsten aus dem anderen Format.
+   Die Reihenfolge ist in `order` festgelegt und wechselt bereits
+   zwischen den Themengebieten. Nicht davon abweichen.
+
+4. **Gegen Instagram prüfen.** Lies über den Connector die Beiträge
    der letzten 7 Tage (`get_data`, Felder `media_permalink`,
    `timestamp`, `media_caption`). Steht der Post dort schon, ist
    `posted.json` veraltet: trag ihn nach und nimm den nächsten.
    Dieser Schritt verhindert Doppelposts, falls ein früherer Lauf
    zwar gepostet, aber nicht mehr pushen konnte.
 
-4. **Bild-URLs bilden.** Die Folien sind bereits gerendert und liegen
-   unter `docs/posts/`. Öffentlich erreichbar sind sie als
-   `https://spuhane.github.io/reel-fabrik/posts/<id>-1.jpg` (ebenso -2, -3).
-   Nichts neu rendern.
+5. **Medien-URLs nehmen.** Alles ist bereits gerendert. Die URLs
+   stehen im Post selbst: `images` (drei JPEG-URLs) beim Karussell,
+   `video` (eine MP4-URL) beim Reel. Nichts neu rendern, nichts
+   selbst zusammenbauen.
 
-5. **Veröffentlichen.**
+6. **Veröffentlichen.** Caption ist immer
+   `caption` + Leerzeile + Hashtags durch Leerzeichen getrennt.
+
+   Karussell:
    `execute_action(connector="instagram", action="create_carousel_post",
     account="17841468136895555",
-    params={"image_urls": [<URL 1>, <URL 2>, <URL 3>],
-            "caption": <caption> + "\n\n" + <hashtags, durch Leerzeichen getrennt>})`
+    params={"image_urls": <images>, "caption": <caption>})`
 
-6. **Eintragen.** `id`, Datum, `media_id` und Permalink in
+   Reel:
+   `execute_action(connector="instagram", action="create_video_post",
+    account="17841468136895555",
+    params={"video_url": <video>, "caption": <caption>, "share_to_feed": true})`
+
+7. **Eintragen.** `id`, Datum, `media_id` und Permalink in
    `state/posted.json`, committen, pushen.
 
-7. **Melden.** Kurze Nachricht an Stefan: was gepostet wurde, mit
+8. **Melden.** Kurze Nachricht an Stefan: was gepostet wurde, mit
    Permalink, und wie viele Posts noch im Pool liegen.
 
 ## Regeln
