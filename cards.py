@@ -59,7 +59,19 @@ def slide_formel(brand, p, page, pages):
     d = ImageDraw.Draw(img)
     txt, dim, acc = hex2rgb(brand["text"]), hex2rgb(brand["text_dim"]), hex2rgb(brand["accent"])
     rf = font("Inter-Medium", 32)
-    rows_h = sum(max(70, len(wrap(d, r["text"], rf, CW - 240)) * 42 + 28) + 14 for r in p["teile"])
+
+    # Label-Spalte richtet sich nach dem laengsten Label, statt fest zu sein.
+    # Vorher lief "Kapitalumschlag" in den Erklaerungstext hinein.
+    size = 34
+    lf = font("InterDisplay-SemiBold", size)
+    widest = lambda f: max(d.textlength(r["label"], font=f) for r in p["teile"])
+    while size > 24 and widest(lf) > CW * 0.40:
+        size -= 2
+        lf = font("InterDisplay-SemiBold", size)
+    colw = int(widest(lf)) + 34
+    textw = CW - colw
+
+    rows_h = sum(max(70, len(wrap(d, r["text"], rf, textw)) * 42 + 28) + 14 for r in p["teile"])
     block = _h_title(d, p["title"]) + 40 + 150 + 44 + rows_h
     y = TOP + max(0, (BOT - TOP - block) // 2)
     y = _title(d, img, p["title"], y, brand=brand)
@@ -69,13 +81,12 @@ def slide_formel(brand, p, page, pages):
     d.text((W / 2, y + 75), p["formel"], font=ff, fill=txt + (255,), anchor="mm")
     y += 194
     for r in p["teile"]:
-        rl = wrap(d, r["text"], rf, CW - 240)
+        rl = wrap(d, r["text"], rf, textw)
         bh = max(70, len(rl) * 42 + 28)
-        d.text((MX, y + bh / 2), r["label"], font=font("InterDisplay-SemiBold", 34),
-               fill=acc + (255,), anchor="lm")
+        d.text((MX, y + bh / 2), r["label"], font=lf, fill=acc + (255,), anchor="lm")
         ty = y + bh / 2 - (len(rl) - 1) * 21
         for ln in rl:
-            d.text((MX + 200, ty), ln, font=rf, fill=dim + (255,), anchor="lm")
+            d.text((MX + colw, ty), ln, font=rf, fill=dim + (255,), anchor="lm")
             ty += 42
         y += bh + 14
     footer(img, brand, brand["url"], highlight=True)
