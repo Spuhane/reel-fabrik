@@ -31,5 +31,11 @@
     "#kennzahlen",
     "#bwl"
   ],
-  "freigegeben_am": "2026-11-14"
+  "freigegeben_am": "2026-11-14",
+  "format": "carousel",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/q-bmc-41-1.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/q-bmc-41-2.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/q-bmc-41-3.jpg"
+  ]
 }
