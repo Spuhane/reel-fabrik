@@ -33,5 +33,9 @@
   "freigegeben_am": "2026-11-14",
   "format": "reel",
   "video": "https://spuhane.github.io/reel-fabrik/reels/q-hq-ifc-69.mp4",
-  "order": 8
+  "order": 8,
+  "facebook": {
+    "image": "https://spuhane.github.io/reel-fabrik/posts/q-hq-ifc-69-fb.jpg",
+    "caption": "Was passiert am Break-even-Punkt?\n\nA) Umsatz = variable Kosten\nB) Umsatz = Gesamtkosten\nC) Gewinn ist maximal\nD) Alle Kosten sind variabel\n\nRichtig ist B) Umsatz = Gesamtkosten.\n\nAm Break-even-Punkt deckt der Umsatz exakt die Gesamtkosten aus Fixkosten und variablen Kosten. Der Gewinn ist genau null. Jede weitere verkaufte Einheit bringt ab diesem Punkt Gewinn.\n\nÜber 1.300 Prüfungsfragen mit Erklärung zu jeder Antwort: wirtschaftsfachwirt-pro.de\n\n#wirtschaftsfachwirt #ihkprüfung #weiterbildung #aufstiegsfortbildung"
+  }
 }

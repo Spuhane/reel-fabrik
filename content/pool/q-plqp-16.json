@@ -34,5 +34,9 @@
   "freigegeben_am": "2026-11-14",
   "format": "reel",
   "video": "https://spuhane.github.io/reel-fabrik/reels/q-plqp-16.mp4",
-  "order": 23
+  "order": 23,
+  "facebook": {
+    "image": "https://spuhane.github.io/reel-fabrik/posts/q-plqp-16-fb.jpg",
+    "caption": "Wie lange darf ein Daily Scrum höchstens dauern?\n\nA) 15 Minuten\nB) 30 Minuten\nC) 1 Stunde\nD) 5 Minuten\n\nRichtig ist A) 15 Minuten.\n\nDas Daily Scrum ist auf 15 Minuten begrenzt. In dieser Zeit synchronisiert sich das Team über Fortschritt, Hindernisse und die Planung des Tages. Die kurze Dauer ist Teil des Formats, nicht eine Empfehlung.\n\nÜber 1.300 Prüfungsfragen mit Erklärung zu jeder Antwort: wirtschaftsfachwirt-pro.de\n\n#wirtschaftsfachwirt #ihkprüfung #weiterbildung #aufstiegsfortbildung"
+  }
 }

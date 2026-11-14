@@ -37,5 +37,9 @@
   "images": [
     "https://spuhane.github.io/reel-fabrik/posts/f-roi-1.jpg"
   ],
-  "order": 4
+  "order": 4,
+  "facebook": {
+    "image": "https://spuhane.github.io/reel-fabrik/posts/f-roi-1.jpg",
+    "caption": "Return on Investment = Umsatzrendite × Kapitalumschlag\n\nUmsatzrendite: Gewinn geteilt durch Umsatz\nKapitalumschlag: Umsatz geteilt durch eingesetztes Kapital\nErgebnis: Wie viel das eingesetzte Kapital verdient\n\nDer ROI lässt sich auf zwei Wegen verbessern: mehr Gewinn je Euro Umsatz, oder mehr Umsatz je Euro Kapital.\n\nGenau das macht die DuPont-Zerlegung sichtbar. Wer in der Prüfung nur die Formel kennt, kann rechnen. Wer die zwei Stellschrauben kennt, kann argumentieren.\n\nAn welcher der beiden würdest du zuerst drehen?\n\nÜber 1.300 Prüfungsfragen mit Erklärung zu jeder Antwort: wirtschaftsfachwirt-pro.de\n\n#wirtschaftsfachwirt #ihkprüfung #weiterbildung #aufstiegsfortbildung"
+  }
 }

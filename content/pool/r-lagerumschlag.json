@@ -35,5 +35,9 @@
     "https://spuhane.github.io/reel-fabrik/posts/r-lagerumschlag-1.jpg",
     "https://spuhane.github.io/reel-fabrik/posts/r-lagerumschlag-2.jpg"
   ],
-  "order": 16
+  "order": 16,
+  "facebook": {
+    "image": "https://spuhane.github.io/reel-fabrik/posts/r-lagerumschlag-1.jpg",
+    "caption": "Rechenaufgabe zum Mitrechnen:\n\nWareneinsatz: 600.000 €\nØ Lagerbestand: 75.000 €\n\nWie oft schlägt das Lager im Jahr um?\n\nErgebnis: 8-mal\n\n600.000 € geteilt durch 75.000 € ergibt 8. Das Lager erneuert sich also achtmal im Jahr, die durchschnittliche Lagerdauer beträgt rund 45 Tage.\n\nÜber 1.300 Prüfungsfragen mit Erklärung zu jeder Antwort: wirtschaftsfachwirt-pro.de\n\n#wirtschaftsfachwirt #ihkprüfung #weiterbildung #aufstiegsfortbildung"
+  }
 }

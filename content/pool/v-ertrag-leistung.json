@@ -31,5 +31,9 @@
   "images": [
     "https://spuhane.github.io/reel-fabrik/posts/v-ertrag-leistung-1.jpg"
   ],
-  "order": 30
+  "order": 30,
+  "facebook": {
+    "image": "https://spuhane.github.io/reel-fabrik/posts/v-ertrag-leistung-1.jpg",
+    "caption": "Ertrag ist nicht Leistung\n\nErtrag: Der gesamte Wertzuwachs einer Periode nach Buchhaltung, auch aus dem Verkauf einer alten Maschine.\n\nLeistung: Nur der Wertzuwachs aus der eigentlichen betrieblichen Tätigkeit.\n\nErtrag und Aufwand gehören zur Buchhaltung, Leistung und Kosten zur Kostenrechnung.\n\nÜber 1.300 Prüfungsfragen mit Erklärung zu jeder Antwort: wirtschaftsfachwirt-pro.de\n\n#wirtschaftsfachwirt #ihkprüfung #weiterbildung #aufstiegsfortbildung"
+  }
 }

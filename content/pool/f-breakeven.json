@@ -37,5 +37,9 @@
   "images": [
     "https://spuhane.github.io/reel-fabrik/posts/f-breakeven-1.jpg"
   ],
-  "order": 12
+  "order": 12,
+  "facebook": {
+    "image": "https://spuhane.github.io/reel-fabrik/posts/f-breakeven-1.jpg",
+    "caption": "Break-even-Menge = Fixkosten ÷ DB je Stück\n\nFixkosten: Kosten, die unabhängig von der Menge anfallen\nDB je Stück: Preis minus variable Kosten je Stück\nErgebnis: Die Stückzahl, ab der die Kosten gedeckt sind\n\nAm Break-even ist der Gewinn null – nicht maximal. Das ist die häufigste Verwechslung bei dieser Kennzahl.\n\nDie Rechnung selbst ist eine Division: Wie viele Deckungsbeiträge braucht es, um den Fixkostenblock zu füllen?\n\nWie sicher bist du bei Break-even-Aufgaben?\n\nÜber 1.300 Prüfungsfragen mit Erklärung zu jeder Antwort: wirtschaftsfachwirt-pro.de\n\n#wirtschaftsfachwirt #ihkprüfung #weiterbildung #aufstiegsfortbildung"
+  }
 }

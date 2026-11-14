@@ -59,12 +59,27 @@ Läuft dienstags und donnerstags um 19:41 Uhr.
     account="17841468136895555",
     params={"video_url": <video>, "caption": <caption>, "share_to_feed": true})`
 
-7. **Eintragen.** `id`, Datum, `media_id` und Permalink in
-   `state/posted.json`, committen, pushen.
+7. **Auf Facebook spiegeln.** Seite „Stefan Walz Schulungen",
+   ID `761895757006421`, Connector `facebook_organic`.
+   Facebook nimmt über die Schnittstelle weder Karussells noch
+   Videos, dafür sehr lange Texte. Deshalb liegt in jedem Beitrag
+   ein eigenes Feld `facebook` mit `image` und `caption` bereit:
 
-8. **Melden.** Kurze Nachricht an Stefan: was veröffentlicht wurde,
-   welcher Typ, mit Permalink, und wie viele Beiträge noch im Pool
-   liegen.
+   `execute_action(connector="facebook_organic", action="create_photo_post",
+    account="761895757006421",
+    params={"image_url": <facebook.image>, "caption": <facebook.caption>})`
+
+   Diesen Text nicht selbst zusammenbauen und nicht kürzen. Scheitert
+   der Facebook-Teil, gilt der Lauf trotzdem als erfolgreich, wenn
+   Instagram geklappt hat: eintragen, und das Problem melden.
+
+8. **Eintragen.** `id`, Datum, `media_id` und Permalink in
+   `state/posted.json`, committen, pushen. Den Facebook-Beitrag
+   mit vermerken.
+
+9. **Melden.** Kurze Nachricht an Stefan: was veröffentlicht wurde,
+   welcher Typ, mit Permalink, ob Facebook ebenfalls geklappt hat,
+   und wie viele Beiträge noch im Pool liegen.
 
 ## Regeln
 

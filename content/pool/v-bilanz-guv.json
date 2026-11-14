@@ -31,5 +31,9 @@
   "images": [
     "https://spuhane.github.io/reel-fabrik/posts/v-bilanz-guv-1.jpg"
   ],
-  "order": 38
+  "order": 38,
+  "facebook": {
+    "image": "https://spuhane.github.io/reel-fabrik/posts/v-bilanz-guv-1.jpg",
+    "caption": "Bilanz oder GuV?\n\nBilanz: Eine Momentaufnahme zum Stichtag. Zeigt Vermögen und Kapital, also Bestände.\n\nGuV: Eine Zeitraumrechnung. Zeigt Aufwand und Ertrag einer ganzen Periode.\n\nDie Bilanz ist ein Foto, die GuV ein Film.\n\nÜber 1.300 Prüfungsfragen mit Erklärung zu jeder Antwort: wirtschaftsfachwirt-pro.de\n\n#wirtschaftsfachwirt #ihkprüfung #weiterbildung #aufstiegsfortbildung"
+  }
 }

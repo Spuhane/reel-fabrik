@@ -34,5 +34,9 @@
   "freigegeben_am": "2026-11-14",
   "format": "reel",
   "video": "https://spuhane.github.io/reel-fabrik/reels/q-bmc-40.mp4",
-  "order": 2
+  "order": 2,
+  "facebook": {
+    "image": "https://spuhane.github.io/reel-fabrik/posts/q-bmc-40-fb.jpg",
+    "caption": "Wie berechnet sich die Umsatzrendite?\n\nA) Gewinn / Umsatz\nB) Umsatz / Gewinn\nC) Gewinn / Kapital\nD) Umsatz / Kapital\n\nRichtig ist A) Gewinn / Umsatz.\n\nDie Umsatzrendite setzt den Gewinn ins Verhältnis zum Umsatz. Sie beantwortet die Frage, wie viel von jedem Euro Umsatz am Ende als Gewinn übrig bleibt. In der DuPont-Zerlegung ist sie einer der beiden Faktoren des Return on Investment.\n\nÜber 1.300 Prüfungsfragen mit Erklärung zu jeder Antwort: wirtschaftsfachwirt-pro.de\n\n#wirtschaftsfachwirt #ihkprüfung #weiterbildung #aufstiegsfortbildung"
+  }
 }
