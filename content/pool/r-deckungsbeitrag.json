@@ -1,0 +1,43 @@
+{
+  "id": "r-deckungsbeitrag",
+  "type": "raetsel",
+  "topic": "Investition & Controlling (HQ)",
+  "track": "HQ",
+  "gegeben": [
+    {
+      "label": "Absatzmenge",
+      "wert": "1.500 Stück"
+    },
+    {
+      "label": "Preis je Stück",
+      "wert": "120 €"
+    },
+    {
+      "label": "variable Kosten je Stück",
+      "wert": "85 €"
+    }
+  ],
+  "frage": "Wie hoch ist der gesamte Deckungsbeitrag?",
+  "ergebnis": "52.500 €",
+  "rechenweg": "Je Stück bleiben 120 € minus 85 €, also 35 €. Multipliziert mit 1.500 Stück ergibt das 52.500 €. Dieser Betrag steht zur Deckung der Fixkosten zur Verfügung.",
+  "caption": "Zwei Rechenschritte, und trotzdem die Aufgabe, bei der in der Prüfung am häufigsten die Fixkosten mit hineinrutschen.\n\nDer Deckungsbeitrag kennt keine Fixkosten. Er sagt nur, was nach den variablen Kosten übrig bleibt.\n\nSchreib dein Ergebnis in die Kommentare.",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#controlling",
+    "#kostenrechnung"
+  ],
+  "format": "carousel",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/r-deckungsbeitrag-1.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/r-deckungsbeitrag-2.jpg"
+  ],
+  "order": 34
+}

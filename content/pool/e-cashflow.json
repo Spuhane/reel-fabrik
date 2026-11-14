@@ -1,0 +1,32 @@
+{
+  "id": "e-cashflow",
+  "type": "erklaerung",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "kicker": "Kurz erklärt",
+  "begriff": "Cashflow",
+  "untertitel": "Was tatsächlich an Geld hereinkommt",
+  "text": "Der Gewinn aus der GuV enthält Positionen, die kein Geld bewegen, allen voran Abschreibungen. Rechnet man sie zum Gewinn hinzu, nähert man sich dem, was wirklich geflossen ist. Deshalb gilt der Cashflow als schwerer manipulierbar als der ausgewiesene Gewinn.",
+  "merksatz": "Abschreibungen mindern den Gewinn, kosten aber kein Geld.",
+  "caption": "Zwei Unternehmen mit demselben Gewinn können völlig unterschiedlich dastehen. Der Unterschied heißt Cashflow.\n\nAbschreibungen mindern den Gewinn, kosten aber in dieser Periode kein Geld. Wer das herausrechnet, sieht, was wirklich in der Kasse ankommt.\n\nSpeichern für die Bilanzanalyse.",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#bilanz",
+    "#finanzierung"
+  ],
+  "format": "carousel",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/e-cashflow-1.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/e-cashflow-2.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/e-cashflow-3.jpg"
+  ],
+  "order": 36
+}

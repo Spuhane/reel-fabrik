@@ -1,0 +1,32 @@
+{
+  "id": "e-kuppelprodukt",
+  "type": "erklaerung",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "kicker": "Kurz erklärt",
+  "begriff": "Kuppelprodukt",
+  "untertitel": "Wenn ein Prozess mehrere Produkte zugleich erzeugt",
+  "text": "Bei der Erdölraffination entstehen Benzin, Diesel und Heizöl zwangsläufig gemeinsam. Keines lässt sich einzeln herstellen, also lassen sich die Kosten keinem Produkt direkt zurechnen. Man verteilt sie deshalb nachträglich, meist über den Marktwert der einzelnen Produkte.",
+  "merksatz": "Ein Kuppelprodukt entsteht nicht freiwillig, sondern unvermeidlich mit.",
+  "caption": "Kuppelprodukte sind der Grund, warum es in der Kostenrechnung Verteilungsverfahren gibt, die auf den ersten Blick willkürlich wirken.\n\nWenn aus einem Prozess zwangsläufig mehrere Produkte fallen, gibt es keine verursachungsgerechte Zurechnung. Man behilft sich mit dem Marktwert.\n\nKennst du ein Kuppelprodukt aus deinem Betrieb?",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#kostenrechnung",
+    "#rechnungswesen"
+  ],
+  "format": "carousel",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/e-kuppelprodukt-1.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/e-kuppelprodukt-2.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/e-kuppelprodukt-3.jpg"
+  ],
+  "order": 11
+}

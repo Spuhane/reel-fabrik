@@ -1,0 +1,32 @@
+{
+  "id": "e-make-or-buy",
+  "type": "erklaerung",
+  "topic": "Logistik & Prozesse (HQ)",
+  "track": "HQ",
+  "kicker": "Kurz erklärt",
+  "begriff": "Make or Buy",
+  "untertitel": "Selbst fertigen oder zukaufen?",
+  "text": "Für die Rechnung zählen nur die Kosten, die sich durch die Entscheidung ändern. Fixkosten, die ohnehin weiterlaufen, gehören nicht in den Vergleich. Dazu kommen Gründe, die sich schlecht beziffern lassen: Abhängigkeit vom Lieferanten, eigenes Know-how, Lieferzeiten.",
+  "merksatz": "Vergleiche nur, was sich durch die Entscheidung ändert.",
+  "caption": "Die Make-or-Buy-Rechnung geht fast immer an derselben Stelle schief: Jemand rechnet die vollen Selbstkosten gegen den Einkaufspreis.\n\nRichtig ist der Vergleich der entscheidungsrelevanten Kosten. Eine Halle, die so oder so dasteht, macht die Eigenfertigung nicht teurer.\n\nWie entscheidet ihr das im Betrieb?",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#logistik",
+    "#einkauf"
+  ],
+  "format": "carousel",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/e-make-or-buy-1.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/e-make-or-buy-2.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/e-make-or-buy-3.jpg"
+  ],
+  "order": 3
+}

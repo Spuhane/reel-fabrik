@@ -1,0 +1,41 @@
+{
+  "id": "f-deckungsbeitrag",
+  "type": "formel",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "title": "Deckungsbeitrag",
+  "formel": "Erlös − variable Kosten",
+  "teile": [
+    {
+      "label": "Erlös",
+      "text": "Was der Verkauf einbringt"
+    },
+    {
+      "label": "variable K.",
+      "text": "Kosten, die je Stück anfallen: Material, Akkordlohn, Energie"
+    },
+    {
+      "label": "Ergebnis",
+      "text": "Der Betrag, der zur Deckung der Fixkosten bleibt"
+    }
+  ],
+  "caption": "Der Deckungsbeitrag ist die meistgebrauchte Kennzahl der ganzen Prüfung – und die, bei der am häufigsten die Fixkosten hineingerechnet werden.\n\nSie gehören nicht hinein. Der Deckungsbeitrag sagt genau, was nach den variablen Kosten übrig bleibt, um die Fixkosten überhaupt erst zu decken.\n\nSpeicher dir die Karte für die Wiederholung.",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#kostenrechnung",
+    "#controlling"
+  ],
+  "format": "single",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/f-deckungsbeitrag-1.jpg"
+  ],
+  "order": 29
+}

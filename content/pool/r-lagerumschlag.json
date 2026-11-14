@@ -1,0 +1,39 @@
+{
+  "id": "r-lagerumschlag",
+  "type": "raetsel",
+  "topic": "Logistik & Prozesse (HQ)",
+  "track": "HQ",
+  "gegeben": [
+    {
+      "label": "Wareneinsatz",
+      "wert": "600.000 €"
+    },
+    {
+      "label": "Ø Lagerbestand",
+      "wert": "75.000 €"
+    }
+  ],
+  "frage": "Wie oft schlägt das Lager im Jahr um?",
+  "ergebnis": "8-mal",
+  "rechenweg": "600.000 € geteilt durch 75.000 € ergibt 8. Das Lager erneuert sich also achtmal im Jahr, die durchschnittliche Lagerdauer beträgt rund 45 Tage.",
+  "caption": "Aus der Umschlagshäufigkeit lässt sich direkt die Lagerdauer ableiten: 360 Tage geteilt durch 8 ergibt 45 Tage.\n\nBeide Kennzahlen werden in Logistikaufgaben gern nacheinander abgefragt. Wer die erste hat, hat die zweite geschenkt.\n\nWie lange liegt eure Ware?",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#logistik",
+    "#kennzahlen"
+  ],
+  "format": "carousel",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/r-lagerumschlag-1.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/r-lagerumschlag-2.jpg"
+  ],
+  "order": 16
+}

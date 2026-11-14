@@ -2,7 +2,7 @@
 <html lang="de"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Instagram-Plan &ndash; fachwirt_schulungen</title>
+<title>Redaktionsplan &ndash; fachwirt_schulungen</title>
 <style>
   :root { --bg:#0b0b0d; --card:#141418; --line:#26262c; --txt:#eceef2;
            --dim:#9aa0ac; --acc:#ff7a1a; --vio:#8b5cf6; }
@@ -11,248 +11,559 @@
          font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
   .wrap { max-width:1180px; margin:0 auto; }
   h1 { font-size:30px; margin:0 0 6px; letter-spacing:-.02em; }
-  .lead { color:var(--dim); margin:0 0 10px; }
-  .stats { display:flex; gap:10px; flex-wrap:wrap; margin:18px 0 34px; }
+  .lead { color:var(--dim); margin:0 0 18px; }
+  .stats { display:flex; gap:10px; flex-wrap:wrap; margin:0 0 34px; }
   .stat { background:var(--card); border:1px solid var(--line); border-radius:12px;
-           padding:12px 18px; }
-  .stat b { display:block; font-size:24px; }
+           padding:10px 16px; }
+  .stat b { display:block; font-size:22px; }
   .stat span { color:var(--dim); font-size:13px; }
   .post { background:var(--card); border:1px solid var(--line); border-radius:16px;
            padding:16px; margin-bottom:18px; }
   .post header { display:flex; gap:10px; align-items:center; margin-bottom:12px;
                   font-size:13px; color:var(--dim); flex-wrap:wrap; }
+  .num { color:var(--dim); font-variant-numeric:tabular-nums; min-width:26px; }
   .when { color:var(--txt); font-weight:600; }
-  .fmt { padding:2px 10px; border-radius:20px; font-size:12px; }
-  .fmt.reel { border:1px solid var(--vio); color:#b79cff; }
-  .fmt.car { border:1px solid var(--acc); color:var(--acc); }
-  .topic { }
+  .typ { padding:2px 10px; border-radius:20px; font-size:12px;
+          border:1px solid var(--acc); color:var(--acc); }
+  .typ.t-quiz { border-color:var(--vio); color:#b79cff; }
+  .typ.t-raetsel { border-color:#4ade80; color:#4ade80; }
+  .typ.t-formel { border-color:#60a5fa; color:#60a5fa; }
   .id { margin-left:auto; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
-  .slides { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+  .slides { display:grid; gap:10px; }
+  .slides.s1 { grid-template-columns:minmax(0,340px); }
+  .slides.s2 { grid-template-columns:repeat(2,1fr); }
+  .slides.s3 { grid-template-columns:repeat(3,1fr); }
   .slides img { width:100%; border-radius:10px; display:block; border:1px solid var(--line); }
   video { width:100%; max-width:330px; border-radius:12px; display:block;
            border:1px solid var(--line); background:#000; }
   details { margin-top:12px; }
   summary { cursor:pointer; color:var(--dim); font-size:14px; }
   .tags { color:var(--acc); font-size:14px; word-spacing:4px; }
-  @media (max-width:640px) { .slides { grid-template-columns:1fr; } }
+  @media (max-width:640px) { .slides { grid-template-columns:1fr !important; } }
 </style></head><body><div class="wrap">
-<h1>Instagram-Plan</h1>
-<p class="lead">@fachwirt_schulungen &middot; dienstags Karussell, donnerstags Reel, jeweils 19:41 Uhr.
-Heiligabend, Weihnachten und Silvester werden übersprungen. Der letzte geplante Beitrag läuft am Di, 02.02.2027.</p>
-<div class="stats">
-  <div class="stat"><b>21</b><span>Beiträge gesamt</span></div>
-  <div class="stat"><b>13</b><span>Karussells</span></div>
-  <div class="stat"><b>8</b><span>Reels</span></div>
-</div>
+<h1>Redaktionsplan</h1>
+<p class="lead">@fachwirt_schulungen &middot; dienstags und donnerstags 19:41 Uhr.
+Die Inhaltstypen wechseln einander ab, Feiertage werden übersprungen. Der letzte geplante Beitrag läuft am Do, 08.04.2027.</p>
+<div class="stats"><div class="stat"><b>40</b><span>Beiträge</span></div><div class="stat"><b>21</b><span>Quiz</span></div><div class="stat"><b>5</b><span>Erklärung</span></div><div class="stat"><b>5</b><span>Formel</span></div><div class="stat"><b>5</b><span>Verwechslung</span></div><div class="stat"><b>4</b><span>Rätsel</span></div></div>
 <article class="post">
   <header>
-    <span class="when">Di, 17.11.2026</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">1</span>
+    <span class="when">Di, 17.11.2026</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">BWL, Marketing &amp; Controlling</span>
     <span class="id">q-bmc-41</span>
   </header>
-  <div class="slides"><a href="posts/q-bmc-41-1.jpg" target="_blank"><img src="posts/q-bmc-41-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-bmc-41-2.jpg" target="_blank"><img src="posts/q-bmc-41-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-bmc-41-3.jpg" target="_blank"><img src="posts/q-bmc-41-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-bmc-41-1.jpg" target="_blank"><img src="posts/q-bmc-41-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-bmc-41-2.jpg" target="_blank"><img src="posts/q-bmc-41-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-bmc-41-3.jpg" target="_blank"><img src="posts/q-bmc-41-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Umsatzrendite und Kapitalumschlag werden in der Prüfung gern verwechselt – dabei stehen Zähler und Nenner genau andersherum.<br><br>Merkhilfe: Beim Umschlag steht der Umsatz oben. Beides zusammen ergibt den ROI.<br><br>Welche Kennzahl bereitet dir am meisten Kopfzerbrechen?</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #controlling #kennzahlen #bwl</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Do, 19.11.2026</span><span class="fmt reel">Reel &middot; 17 s</span>
+    <span class="num">2</span>
+    <span class="when">Do, 19.11.2026</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Reel · 17 s</span>
     <span class="topic">BWL, Marketing &amp; Controlling</span>
     <span class="id">q-bmc-40</span>
   </header>
-  <video controls preload="metadata" playsinline poster="" src="reels/q-bmc-40.mp4"></video>
+  <video controls preload="metadata" playsinline src="reels/q-bmc-40.mp4"></video>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Zwei Unternehmen machen denselben Umsatz – und verdienen völlig unterschiedlich daran. Die Umsatzrendite macht diesen Unterschied sichtbar.<br><br>Zusammen mit dem Kapitalumschlag ergibt sie den ROI. Wer beide Kennzahlen auseinanderhalten kann, hat in der Prüfung schon die halbe Aufgabe gelöst.<br><br>Hättest du sie gewusst?</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #controlling #kennzahlen #bwl</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Di, 24.11.2026</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">3</span>
+    <span class="when">Di, 24.11.2026</span>
+    <span class="typ t-erklaerung">Erklärung</span>
+    <span class="fmt">Karussell · 3 Folien</span>
+    <span class="topic">Logistik &amp; Prozesse (HQ)</span>
+    <span class="id">e-make-or-buy</span>
+  </header>
+  <div class="slides s3"><a href="posts/e-make-or-buy-1.jpg" target="_blank"><img src="posts/e-make-or-buy-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/e-make-or-buy-2.jpg" target="_blank"><img src="posts/e-make-or-buy-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/e-make-or-buy-3.jpg" target="_blank"><img src="posts/e-make-or-buy-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Die Make-or-Buy-Rechnung geht fast immer an derselben Stelle schief: Jemand rechnet die vollen Selbstkosten gegen den Einkaufspreis.<br><br>Richtig ist der Vergleich der entscheidungsrelevanten Kosten. Eine Halle, die so oder so dasteht, macht die Eigenfertigung nicht teurer.<br><br>Wie entscheidet ihr das im Betrieb?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #logistik #einkauf</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">4</span>
+    <span class="when">Do, 26.11.2026</span>
+    <span class="typ t-formel">Formel</span>
+    <span class="fmt">Einzelbild</span>
+    <span class="topic">BWL, Marketing &amp; Controlling</span>
+    <span class="id">f-roi</span>
+  </header>
+  <div class="slides s1"><a href="posts/f-roi-1.jpg" target="_blank"><img src="posts/f-roi-1.jpg" alt="Folie 1" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Der ROI lässt sich auf zwei Wegen verbessern: mehr Gewinn je Euro Umsatz, oder mehr Umsatz je Euro Kapital.<br><br>Genau das macht die DuPont-Zerlegung sichtbar. Wer in der Prüfung nur die Formel kennt, kann rechnen. Wer die zwei Stellschrauben kennt, kann argumentieren.<br><br>An welcher der beiden würdest du zuerst drehen?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #controlling #kennzahlen</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">5</span>
+    <span class="when">Di, 01.12.2026</span>
+    <span class="typ t-verwechslung">Verwechslung</span>
+    <span class="fmt">Einzelbild</span>
+    <span class="topic">BWL, Marketing &amp; Controlling</span>
+    <span class="id">v-skonto-rabatt</span>
+  </header>
+  <div class="slides s1"><a href="posts/v-skonto-rabatt-1.jpg" target="_blank"><img src="posts/v-skonto-rabatt-1.jpg" alt="Folie 1" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Skonto sieht nach einem kleinen Nachlass aus und ist in Wahrheit ein teurer Kredit – für den, der ihn nicht zieht.<br><br>2 Prozent Skonto bei 30 Tagen Ziel entsprechen aufs Jahr gerechnet einem zweistelligen Zinssatz. Genau das wird in Prüfungsaufgaben gerechnet.<br><br>Zieht ihr Skonto konsequent?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #einkauf #bwl</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">6</span>
+    <span class="when">Do, 03.12.2026</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">Betriebliches Management (HQ)</span>
     <span class="id">q-hq-bm-47</span>
   </header>
-  <div class="slides"><a href="posts/q-hq-bm-47-1.jpg" target="_blank"><img src="posts/q-hq-bm-47-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-bm-47-2.jpg" target="_blank"><img src="posts/q-hq-bm-47-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-bm-47-3.jpg" target="_blank"><img src="posts/q-hq-bm-47-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-hq-bm-47-1.jpg" target="_blank"><img src="posts/q-hq-bm-47-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-bm-47-2.jpg" target="_blank"><img src="posts/q-hq-bm-47-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-bm-47-3.jpg" target="_blank"><img src="posts/q-hq-bm-47-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Die Stabsstelle ist ein Klassiker – und die Falle steckt immer an derselben Stelle: Beratung ja, Weisung nein.<br><br>Wer das verwechselt, verliert Punkte bei jeder Aufgabe zur Aufbauorganisation.<br><br>Speicher dir das für die Wiederholung.</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #organisation #unternehmensführung</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Do, 26.11.2026</span><span class="fmt reel">Reel &middot; 17 s</span>
+    <span class="num">7</span>
+    <span class="when">Di, 08.12.2026</span>
+    <span class="typ t-raetsel">Rätsel</span>
+    <span class="fmt">Karussell · 2 Folien</span>
+    <span class="topic">Investition &amp; Controlling (HQ)</span>
+    <span class="id">r-breakeven</span>
+  </header>
+  <div class="slides s2"><a href="posts/r-breakeven-1.jpg" target="_blank"><img src="posts/r-breakeven-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/r-breakeven-2.jpg" target="_blank"><img src="posts/r-breakeven-2.jpg" alt="Folie 2" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Eine Aufgabe, die so oder ganz ähnlich in jeder zweiten Prüfung steht.<br><br>Der Weg ist immer derselbe: erst den Deckungsbeitrag je Stück, dann die Fixkosten dadurch teilen. Wer das Schema einmal sitzen hat, löst die Aufgabe in zwei Zeilen.<br><br>Hattest du die 2.000?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #controlling #kostenrechnung</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">8</span>
+    <span class="when">Do, 10.12.2026</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Reel · 17 s</span>
     <span class="topic">Investition &amp; Controlling (HQ)</span>
     <span class="id">q-hq-ifc-69</span>
   </header>
-  <video controls preload="metadata" playsinline poster="" src="reels/q-hq-ifc-69.mp4"></video>
+  <video controls preload="metadata" playsinline src="reels/q-hq-ifc-69.mp4"></video>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Der Break-even ist nicht der Punkt des höchsten Gewinns – das ist die häufigste Verwechslung.<br><br>Er ist der Punkt, an dem der Verlust aufhört. Gewinn null, alle Kosten gedeckt. Erst danach wird verdient.<br><br>Wie sicher bist du bei Break-even-Aufgaben?</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #controlling #kostenrechnung</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Di, 01.12.2026</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">9</span>
+    <span class="when">Di, 15.12.2026</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">Führung und Zusammenarbeit (HQ)</span>
     <span class="id">q-hq-fz-45</span>
   </header>
-  <div class="slides"><a href="posts/q-hq-fz-45-1.jpg" target="_blank"><img src="posts/q-hq-fz-45-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-fz-45-2.jpg" target="_blank"><img src="posts/q-hq-fz-45-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-fz-45-3.jpg" target="_blank"><img src="posts/q-hq-fz-45-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-hq-fz-45-1.jpg" target="_blank"><img src="posts/q-hq-fz-45-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-fz-45-2.jpg" target="_blank"><img src="posts/q-hq-fz-45-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-fz-45-3.jpg" target="_blank"><img src="posts/q-hq-fz-45-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">On the job, off the job, near the job – drei Begriffe, die in der Prüfung regelmäßig durcheinandergeraten.<br><br>Die Trennlinie ist einfach: Passiert es am Arbeitsplatz selbst oder daneben?<br><br>Welche Maßnahme hast du zuletzt im Betrieb erlebt?</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #personalentwicklung #führung</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Do, 03.12.2026</span><span class="fmt reel">Reel &middot; 17 s</span>
-    <span class="topic">Logistik &amp; Prozesse (HQ)</span>
-    <span class="id">q-hq-lp-36</span>
-  </header>
-  <video controls preload="metadata" playsinline poster="" src="reels/q-hq-lp-36.mp4"></video>
-  <details><summary>Caption anzeigen</summary>
-    <p class="cap">Am schnellsten heißt nicht am besten. Luftfracht gewinnt bei der Zeit und verliert beim Preis.<br><br>Logistikaufgaben prüfen fast nie eine Transportart allein, sondern die Abwägung zwischen Zeit, Kosten und Menge.<br><br>Welches Verkehrsmittel nutzt ihr am häufigsten?</p>
-    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #logistik #transport</p></details>
-</article><article class="post">
-  <header>
-    <span class="when">Di, 08.12.2026</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">10</span>
+    <span class="when">Do, 17.12.2026</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">Investition &amp; Controlling (HQ)</span>
     <span class="id">q-hq-ifc-24</span>
   </header>
-  <div class="slides"><a href="posts/q-hq-ifc-24-1.jpg" target="_blank"><img src="posts/q-hq-ifc-24-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-ifc-24-2.jpg" target="_blank"><img src="posts/q-hq-ifc-24-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-ifc-24-3.jpg" target="_blank"><img src="posts/q-hq-ifc-24-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-hq-ifc-24-1.jpg" target="_blank"><img src="posts/q-hq-ifc-24-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-ifc-24-2.jpg" target="_blank"><img src="posts/q-hq-ifc-24-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-ifc-24-3.jpg" target="_blank"><img src="posts/q-hq-ifc-24-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Innen- oder Außenfinanzierung? Die Frage ist immer: Kommt das Geld von außen herein oder entsteht es im Unternehmen?<br><br>Gesellschaftereinlagen und Kredite kommen von außen. Alles, was aus dem eigenen Umsatz stammt, bleibt innen.<br><br>Speicher dir die Systematik.</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #finanzierung #bwl</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Do, 10.12.2026</span><span class="fmt reel">Reel &middot; 17 s</span>
-    <span class="topic">Marketing und Vertrieb (HQ)</span>
-    <span class="id">q-hq-mv-60</span>
+    <span class="num">11</span>
+    <span class="when">Di, 22.12.2026</span>
+    <span class="typ t-erklaerung">Erklärung</span>
+    <span class="fmt">Karussell · 3 Folien</span>
+    <span class="topic">Rechnungswesen &amp; Finanzen</span>
+    <span class="id">e-kuppelprodukt</span>
   </header>
-  <video controls preload="metadata" playsinline poster="" src="reels/q-hq-mv-60.mp4"></video>
+  <div class="slides s3"><a href="posts/e-kuppelprodukt-1.jpg" target="_blank"><img src="posts/e-kuppelprodukt-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/e-kuppelprodukt-2.jpg" target="_blank"><img src="posts/e-kuppelprodukt-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/e-kuppelprodukt-3.jpg" target="_blank"><img src="posts/e-kuppelprodukt-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
-    <p class="cap">SEA und SEO klingen fast gleich und meinen das Gegenteil voneinander: einmal bezahlt, einmal organisch.<br><br>In Marketingaufgaben steht fast immer diese Abgrenzung im Mittelpunkt.<br><br>Speicher dir den Unterschied, bevor die Prüfung danach fragt.</p>
-    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #marketing #onlinemarketing</p></details>
+    <p class="cap">Kuppelprodukte sind der Grund, warum es in der Kostenrechnung Verteilungsverfahren gibt, die auf den ersten Blick willkürlich wirken.<br><br>Wenn aus einem Prozess zwangsläufig mehrere Produkte fallen, gibt es keine verursachungsgerechte Zurechnung. Man behilft sich mit dem Marktwert.<br><br>Kennst du ein Kuppelprodukt aus deinem Betrieb?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #kostenrechnung #rechnungswesen</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Di, 15.12.2026</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">12</span>
+    <span class="when">Di, 29.12.2026</span>
+    <span class="typ t-formel">Formel</span>
+    <span class="fmt">Einzelbild</span>
+    <span class="topic">Investition &amp; Controlling (HQ)</span>
+    <span class="id">f-breakeven</span>
+  </header>
+  <div class="slides s1"><a href="posts/f-breakeven-1.jpg" target="_blank"><img src="posts/f-breakeven-1.jpg" alt="Folie 1" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Am Break-even ist der Gewinn null – nicht maximal. Das ist die häufigste Verwechslung bei dieser Kennzahl.<br><br>Die Rechnung selbst ist eine Division: Wie viele Deckungsbeiträge braucht es, um den Fixkostenblock zu füllen?<br><br>Wie sicher bist du bei Break-even-Aufgaben?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #controlling #kostenrechnung</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">13</span>
+    <span class="when">Di, 05.01.2027</span>
+    <span class="typ t-verwechslung">Verwechslung</span>
+    <span class="fmt">Einzelbild</span>
+    <span class="topic">Rechnungswesen &amp; Finanzen</span>
+    <span class="id">v-liquiditaet-rentabilitaet</span>
+  </header>
+  <div class="slides s1"><a href="posts/v-liquiditaet-rentabilitaet-1.jpg" target="_blank"><img src="posts/v-liquiditaet-rentabilitaet-1.jpg" alt="Folie 1" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Ein Unternehmen kann profitabel sein und trotzdem insolvent gehen. Das klingt widersprüchlich und ist der häufigste Grund für Insolvenzen im Mittelstand.<br><br>Gewinn steht in der GuV. Liquidität steht auf dem Konto. Zwischen beiden liegen Zahlungsziele, Lagerbestände und offene Forderungen.<br><br>Welche der beiden beobachtet ihr enger?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #finanzierung #controlling</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">14</span>
+    <span class="when">Do, 07.01.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Reel · 17 s</span>
+    <span class="topic">Logistik &amp; Prozesse (HQ)</span>
+    <span class="id">q-hq-lp-36</span>
+  </header>
+  <video controls preload="metadata" playsinline src="reels/q-hq-lp-36.mp4"></video>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Am schnellsten heißt nicht am besten. Luftfracht gewinnt bei der Zeit und verliert beim Preis.<br><br>Logistikaufgaben prüfen fast nie eine Transportart allein, sondern die Abwägung zwischen Zeit, Kosten und Menge.<br><br>Welches Verkehrsmittel nutzt ihr am häufigsten?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #logistik #transport</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">15</span>
+    <span class="when">Di, 12.01.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">Logistik &amp; Prozesse (HQ)</span>
     <span class="id">q-hq-lp-52</span>
   </header>
-  <div class="slides"><a href="posts/q-hq-lp-52-1.jpg" target="_blank"><img src="posts/q-hq-lp-52-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-lp-52-2.jpg" target="_blank"><img src="posts/q-hq-lp-52-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-lp-52-3.jpg" target="_blank"><img src="posts/q-hq-lp-52-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-hq-lp-52-1.jpg" target="_blank"><img src="posts/q-hq-lp-52-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-lp-52-2.jpg" target="_blank"><img src="posts/q-hq-lp-52-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-lp-52-3.jpg" target="_blank"><img src="posts/q-hq-lp-52-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Termintreue ist die Kennzahl, an der Kunden eine Lieferbeziehung bewerten – nicht am Preis und nicht am Lagerbestand.<br><br>In Logistikaufgaben wird sie gern gegen andere Kennzahlen gestellt, die ganz andere Dinge messen.<br><br>Wie steht ihr bei der Termintreue da?</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #logistik #kennzahlen</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Do, 17.12.2026</span><span class="fmt reel">Reel &middot; 17 s</span>
-    <span class="topic">Projekte, Logistik, Qualität &amp; Prozesse</span>
-    <span class="id">q-plqp-16</span>
+    <span class="num">16</span>
+    <span class="when">Do, 14.01.2027</span>
+    <span class="typ t-raetsel">Rätsel</span>
+    <span class="fmt">Karussell · 2 Folien</span>
+    <span class="topic">Logistik &amp; Prozesse (HQ)</span>
+    <span class="id">r-lagerumschlag</span>
   </header>
-  <video controls preload="metadata" playsinline poster="" src="reels/q-plqp-16.mp4"></video>
+  <div class="slides s2"><a href="posts/r-lagerumschlag-1.jpg" target="_blank"><img src="posts/r-lagerumschlag-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/r-lagerumschlag-2.jpg" target="_blank"><img src="posts/r-lagerumschlag-2.jpg" alt="Folie 2" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
-    <p class="cap">Fünfzehn Minuten, im Stehen, jeden Tag. Wer das Daily länger zieht, hat kein Daily mehr, sondern ein Meeting.<br><br>In Prüfungsaufgaben zu agilen Methoden wird die Zeitbegrenzung gern abgefragt.<br><br>Wie lange dauern eure Dailys wirklich?</p>
-    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #agil #projektmanagement #scrum</p></details>
+    <p class="cap">Aus der Umschlagshäufigkeit lässt sich direkt die Lagerdauer ableiten: 360 Tage geteilt durch 8 ergibt 45 Tage.<br><br>Beide Kennzahlen werden in Logistikaufgaben gern nacheinander abgefragt. Wer die erste hat, hat die zweite geschenkt.<br><br>Wie lange liegt eure Ware?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #logistik #kennzahlen</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Di, 22.12.2026</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">17</span>
+    <span class="when">Di, 19.01.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">Projekte, Logistik, Qualität &amp; Prozesse</span>
     <span class="id">q-plqp-19</span>
   </header>
-  <div class="slides"><a href="posts/q-plqp-19-1.jpg" target="_blank"><img src="posts/q-plqp-19-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-plqp-19-2.jpg" target="_blank"><img src="posts/q-plqp-19-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-plqp-19-3.jpg" target="_blank"><img src="posts/q-plqp-19-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-plqp-19-1.jpg" target="_blank"><img src="posts/q-plqp-19-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-plqp-19-2.jpg" target="_blank"><img src="posts/q-plqp-19-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-plqp-19-3.jpg" target="_blank"><img src="posts/q-plqp-19-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Die Maschine stand still. Warum? Und warum? Und warum?<br><br>Nach dem fünften Warum steht meistens eine ganz andere Ursache da als die, die man zuerst vermutet hat. Genau das ist der Zweck der Methode.<br><br>Kennst du das aus deinem Betrieb?</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #qualitätsmanagement #prozesse</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Di, 29.12.2026</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">18</span>
+    <span class="when">Do, 21.01.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Reel · 17 s</span>
+    <span class="topic">Marketing und Vertrieb (HQ)</span>
+    <span class="id">q-hq-mv-60</span>
+  </header>
+  <video controls preload="metadata" playsinline src="reels/q-hq-mv-60.mp4"></video>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">SEA und SEO klingen fast gleich und meinen das Gegenteil voneinander: einmal bezahlt, einmal organisch.<br><br>In Marketingaufgaben steht fast immer diese Abgrenzung im Mittelpunkt.<br><br>Speicher dir den Unterschied, bevor die Prüfung danach fragt.</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #marketing #onlinemarketing</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">19</span>
+    <span class="when">Di, 26.01.2027</span>
+    <span class="typ t-erklaerung">Erklärung</span>
+    <span class="fmt">Karussell · 3 Folien</span>
+    <span class="topic">Unternehmensführung &amp; Organisation</span>
+    <span class="id">e-gegenstromverfahren</span>
+  </header>
+  <div class="slides s3"><a href="posts/e-gegenstromverfahren-1.jpg" target="_blank"><img src="posts/e-gegenstromverfahren-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/e-gegenstromverfahren-2.jpg" target="_blank"><img src="posts/e-gegenstromverfahren-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/e-gegenstromverfahren-3.jpg" target="_blank"><img src="posts/e-gegenstromverfahren-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Zahlen, die von oben kommen, sind schnell beschlossen und selten erreicht. Zahlen, die nur von unten kommen, sind bequem.<br><br>Das Gegenstromverfahren verbindet beides: Rahmen von oben, Realitätsprüfung von unten, Abstimmung dazwischen.<br><br>Wie läuft die Planung bei euch?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #unternehmensführung #planung</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">20</span>
+    <span class="when">Do, 28.01.2027</span>
+    <span class="typ t-formel">Formel</span>
+    <span class="fmt">Einzelbild</span>
+    <span class="topic">Logistik &amp; Prozesse (HQ)</span>
+    <span class="id">f-lagerumschlag</span>
+  </header>
+  <div class="slides s1"><a href="posts/f-lagerumschlag-1.jpg" target="_blank"><img src="posts/f-lagerumschlag-1.jpg" alt="Folie 1" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Ein hoher Lagerumschlag bindet weniger Kapital. Ein zu hoher gefährdet die Lieferfähigkeit. Deshalb ist die Kennzahl in Logistikaufgaben fast immer eine Abwägung, keine Maximierung.<br><br>Achte auf den Nenner: der Durchschnittsbestand, nicht der Endbestand.<br><br>Wie oft schlägt euer Lager im Jahr um?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #logistik #kennzahlen</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">21</span>
+    <span class="when">Di, 02.02.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">Rechnungswesen &amp; Finanzen</span>
     <span class="id">q-rfi-17</span>
   </header>
-  <div class="slides"><a href="posts/q-rfi-17-1.jpg" target="_blank"><img src="posts/q-rfi-17-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-rfi-17-2.jpg" target="_blank"><img src="posts/q-rfi-17-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-rfi-17-3.jpg" target="_blank"><img src="posts/q-rfi-17-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-rfi-17-1.jpg" target="_blank"><img src="posts/q-rfi-17-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-rfi-17-2.jpg" target="_blank"><img src="posts/q-rfi-17-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-rfi-17-3.jpg" target="_blank"><img src="posts/q-rfi-17-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Einzelkosten oder Gemeinkosten? Die Prüfungsfrage lautet nie anders als: Kann ich diese Kosten einem Produkt direkt zuordnen?<br><br>Miete und Verwaltung kann man nicht. Deshalb der Umweg über Zuschlagssätze im BAB.<br><br>Speicher dir die Abgrenzung.</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #rechnungswesen #kostenrechnung</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Di, 05.01.2027</span><span class="fmt car">Karussell &middot; 3 Folien</span>
-    <span class="topic">Recht &amp; Steuern</span>
-    <span class="id">q-rs-108</span>
+    <span class="num">22</span>
+    <span class="when">Do, 04.02.2027</span>
+    <span class="typ t-verwechslung">Verwechslung</span>
+    <span class="fmt">Einzelbild</span>
+    <span class="topic">Rechnungswesen &amp; Finanzen</span>
+    <span class="id">v-aufwand-kosten</span>
   </header>
-  <div class="slides"><a href="posts/q-rs-108-1.jpg" target="_blank"><img src="posts/q-rs-108-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-rs-108-2.jpg" target="_blank"><img src="posts/q-rs-108-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-rs-108-3.jpg" target="_blank"><img src="posts/q-rs-108-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s1"><a href="posts/v-aufwand-kosten-1.jpg" target="_blank"><img src="posts/v-aufwand-kosten-1.jpg" alt="Folie 1" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
-    <p class="cap">Fünfzehn Prozent Körperschaftsteuer – das ist nur der erste Teil der Rechnung.<br><br>Dazu kommen Solidaritätszuschlag und Gewerbesteuer. Deshalb liegt die tatsächliche Belastung einer Kapitalgesellschaft deutlich höher.<br><br>Speicher dir die Systematik.</p>
+    <p class="cap">Zwei Begriffe, die im Alltag dasselbe meinen und in der Prüfung nicht.<br><br>Die Buchhaltung erfasst Aufwand, die Kostenrechnung rechnet mit Kosten. Dazwischen liegt alles, was zwar Geld kostet, aber nichts mit dem Betriebszweck zu tun hat.<br><br>Speicher dir die Abgrenzung, sie kommt in jeder Klausur zum Rechnungswesen vor.</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #rechnungswesen #kostenrechnung</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">23</span>
+    <span class="when">Di, 09.02.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Reel · 17 s</span>
+    <span class="topic">Projekte, Logistik, Qualität &amp; Prozesse</span>
+    <span class="id">q-plqp-16</span>
+  </header>
+  <video controls preload="metadata" playsinline src="reels/q-plqp-16.mp4"></video>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Fünfzehn Minuten, im Stehen, jeden Tag. Wer das Daily länger zieht, hat kein Daily mehr, sondern ein Meeting.<br><br>In Prüfungsaufgaben zu agilen Methoden wird die Zeitbegrenzung gern abgefragt.<br><br>Wie lange dauern eure Dailys wirklich?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #agil #projektmanagement #scrum</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">24</span>
+    <span class="when">Do, 11.02.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
+    <span class="topic">Recht &amp; Steuern</span>
+    <span class="id">q-rs-66</span>
+  </header>
+  <div class="slides s3"><a href="posts/q-rs-66-1.jpg" target="_blank"><img src="posts/q-rs-66-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-rs-66-2.jpg" target="_blank"><img src="posts/q-rs-66-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-rs-66-3.jpg" target="_blank"><img src="posts/q-rs-66-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Paragrafen auswendig zu lernen bringt wenig – ein paar zentrale sollte man aber zuordnen können.<br><br>§ 169 AO ist einer davon: Festsetzungsverjährung. Danach ist für das Finanzamt Schluss.<br><br>Welcher Paragraf will bei dir einfach nicht hängenbleiben?</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #steuerrecht #recht</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Do, 07.01.2027</span><span class="fmt reel">Reel &middot; 17 s</span>
+    <span class="num">25</span>
+    <span class="when">Di, 16.02.2027</span>
+    <span class="typ t-raetsel">Rätsel</span>
+    <span class="fmt">Karussell · 2 Folien</span>
     <span class="topic">Rechnungswesen &amp; Finanzen</span>
-    <span class="id">q-rfi-111</span>
+    <span class="id">r-eigenkapitalquote</span>
   </header>
-  <video controls preload="metadata" playsinline poster="" src="reels/q-rfi-111.mp4"></video>
+  <div class="slides s2"><a href="posts/r-eigenkapitalquote-1.jpg" target="_blank"><img src="posts/r-eigenkapitalquote-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/r-eigenkapitalquote-2.jpg" target="_blank"><img src="posts/r-eigenkapitalquote-2.jpg" alt="Folie 2" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
-    <p class="cap">FIFO klingt nach Lagerorganisation und ist zugleich ein Bewertungsverfahren im Rechnungswesen. Beide Seiten können geprüft werden.<br><br>First In, First Out: Was zuerst kam, geht zuerst raus.<br><br>Wie sicher bist du bei den Bewertungsverfahren?</p>
-    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #rechnungswesen #lager</p></details>
+    <p class="cap">Die Falle steckt im Nenner. Gefragt ist der Anteil am Gesamtkapital, nicht das Verhältnis zum Fremdkapital.<br><br>Wer 180.000 durch 420.000 teilt, kommt auf 43 Prozent und liegt daneben. Erst addieren, dann teilen.<br><br>Bist du drauf reingefallen?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #bilanz #finanzierung</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Di, 12.01.2027</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">26</span>
+    <span class="when">Do, 18.02.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">Unternehmensführung &amp; Organisation</span>
     <span class="id">q-uf-100</span>
   </header>
-  <div class="slides"><a href="posts/q-uf-100-1.jpg" target="_blank"><img src="posts/q-uf-100-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-uf-100-2.jpg" target="_blank"><img src="posts/q-uf-100-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-uf-100-3.jpg" target="_blank"><img src="posts/q-uf-100-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-uf-100-1.jpg" target="_blank"><img src="posts/q-uf-100-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-uf-100-2.jpg" target="_blank"><img src="posts/q-uf-100-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-uf-100-3.jpg" target="_blank"><img src="posts/q-uf-100-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Zehn Schulungen durchgeführt klingt nach Erfolg. Aber was hat sich dadurch verändert?<br><br>Output ist die Menge, Outcome die Wirkung. Zielvereinbarungen, die nur den Output messen, steuern am eigentlichen Zweck vorbei.<br><br>Woran werdet ihr gemessen?</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #unternehmensführung #controlling</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Do, 14.01.2027</span><span class="fmt reel">Reel &middot; 17 s</span>
-    <span class="topic">Unternehmensführung &amp; Organisation</span>
-    <span class="id">q-uf-06</span>
+    <span class="num">27</span>
+    <span class="when">Di, 23.02.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Reel · 17 s</span>
+    <span class="topic">Rechnungswesen &amp; Finanzen</span>
+    <span class="id">q-rfi-111</span>
   </header>
-  <video controls preload="metadata" playsinline poster="" src="reels/q-uf-06.mp4"></video>
+  <video controls preload="metadata" playsinline src="reels/q-rfi-111.mp4"></video>
   <details><summary>Caption anzeigen</summary>
-    <p class="cap">Situatives Führen heißt: Der Stil richtet sich nach der Person, nicht nach der Vorliebe der Führungskraft.<br><br>Wer kompetent und motiviert ist, braucht keine Anweisungen, sondern Freiraum. Alles andere bremst.<br><br>Welcher Führungsstil begegnet dir am häufigsten?</p>
-    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #führung #unternehmensführung</p></details>
+    <p class="cap">FIFO klingt nach Lagerorganisation und ist zugleich ein Bewertungsverfahren im Rechnungswesen. Beide Seiten können geprüft werden.<br><br>First In, First Out: Was zuerst kam, geht zuerst raus.<br><br>Wie sicher bist du bei den Bewertungsverfahren?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #rechnungswesen #lager</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Di, 19.01.2027</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">28</span>
+    <span class="when">Do, 25.02.2027</span>
+    <span class="typ t-erklaerung">Erklärung</span>
+    <span class="fmt">Karussell · 3 Folien</span>
+    <span class="topic">VWL &amp; Wirtschaftspolitik</span>
+    <span class="id">e-opportunitaetskosten</span>
+  </header>
+  <div class="slides s3"><a href="posts/e-opportunitaetskosten-1.jpg" target="_blank"><img src="posts/e-opportunitaetskosten-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/e-opportunitaetskosten-2.jpg" target="_blank"><img src="posts/e-opportunitaetskosten-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/e-opportunitaetskosten-3.jpg" target="_blank"><img src="posts/e-opportunitaetskosten-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Die wichtigsten Kosten einer Entscheidung sind oft die, die niemand bucht.<br><br>Jede Ressource, die man so verwendet, kann man nicht anders verwenden. Was die beste verworfene Alternative gebracht hätte, ist der wahre Preis der Entscheidung.<br><br>In Investitionsaufgaben ist das der Unterschied zwischen richtig und fast richtig.</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #vwl #entscheidung</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">29</span>
+    <span class="when">Di, 02.03.2027</span>
+    <span class="typ t-formel">Formel</span>
+    <span class="fmt">Einzelbild</span>
+    <span class="topic">Rechnungswesen &amp; Finanzen</span>
+    <span class="id">f-deckungsbeitrag</span>
+  </header>
+  <div class="slides s1"><a href="posts/f-deckungsbeitrag-1.jpg" target="_blank"><img src="posts/f-deckungsbeitrag-1.jpg" alt="Folie 1" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Der Deckungsbeitrag ist die meistgebrauchte Kennzahl der ganzen Prüfung – und die, bei der am häufigsten die Fixkosten hineingerechnet werden.<br><br>Sie gehören nicht hinein. Der Deckungsbeitrag sagt genau, was nach den variablen Kosten übrig bleibt, um die Fixkosten überhaupt erst zu decken.<br><br>Speicher dir die Karte für die Wiederholung.</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #kostenrechnung #controlling</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">30</span>
+    <span class="when">Do, 04.03.2027</span>
+    <span class="typ t-verwechslung">Verwechslung</span>
+    <span class="fmt">Einzelbild</span>
+    <span class="topic">Rechnungswesen &amp; Finanzen</span>
+    <span class="id">v-ertrag-leistung</span>
+  </header>
+  <div class="slides s1"><a href="posts/v-ertrag-leistung-1.jpg" target="_blank"><img src="posts/v-ertrag-leistung-1.jpg" alt="Folie 1" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Das Gegenstück zu Aufwand und Kosten – und genauso prüfungsrelevant.<br><br>Verkauft ein Betrieb eine ausgemusterte Maschine, ist der Erlös Ertrag, aber keine Leistung. Mit dem eigentlichen Geschäft hat er nichts zu tun.<br><br>Merkhilfe: Die beiden Begriffspaare laufen parallel.</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #rechnungswesen #kostenrechnung</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">31</span>
+    <span class="when">Di, 09.03.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">VWL &amp; Wirtschaftspolitik</span>
     <span class="id">q-vwl-10</span>
   </header>
-  <div class="slides"><a href="posts/q-vwl-10-1.jpg" target="_blank"><img src="posts/q-vwl-10-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-vwl-10-2.jpg" target="_blank"><img src="posts/q-vwl-10-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-vwl-10-3.jpg" target="_blank"><img src="posts/q-vwl-10-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-vwl-10-1.jpg" target="_blank"><img src="posts/q-vwl-10-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-vwl-10-2.jpg" target="_blank"><img src="posts/q-vwl-10-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-vwl-10-3.jpg" target="_blank"><img src="posts/q-vwl-10-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Die Wirtschaft ist um vier Prozent gewachsen – nominal. Real waren es vielleicht eins.<br><br>Der Unterschied ist die Inflation. Wer beide Größen verwechselt, liest jede Konjunkturmeldung falsch.<br><br>Wie sicher bist du bei den VWL-Grundbegriffen?</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #vwl #konjunktur</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Do, 21.01.2027</span><span class="fmt reel">Reel &middot; 17 s</span>
-    <span class="topic">Marketing und Vertrieb (HQ)</span>
-    <span class="id">q-hq-mv-63</span>
-  </header>
-  <video controls preload="metadata" playsinline poster="" src="reels/q-hq-mv-63.mp4"></video>
-  <details><summary>Caption anzeigen</summary>
-    <p class="cap">CRM ist eine dieser Abkürzungen, die jeder benutzt und in der Prüfung trotzdem danebengeht.<br><br>Customer Relationship Management – es geht um die Beziehung, nicht um die Software. Die ist nur das Werkzeug.<br><br>Welche Abkürzung bringt dich am meisten ins Schwitzen?</p>
-    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #marketing #vertrieb</p></details>
-</article><article class="post">
-  <header>
-    <span class="when">Di, 26.01.2027</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">32</span>
+    <span class="when">Do, 11.03.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">Betriebliches Management (HQ)</span>
     <span class="id">q-hq-bm-76</span>
   </header>
-  <div class="slides"><a href="posts/q-hq-bm-76-1.jpg" target="_blank"><img src="posts/q-hq-bm-76-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-bm-76-2.jpg" target="_blank"><img src="posts/q-hq-bm-76-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-bm-76-3.jpg" target="_blank"><img src="posts/q-hq-bm-76-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-hq-bm-76-1.jpg" target="_blank"><img src="posts/q-hq-bm-76-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-bm-76-2.jpg" target="_blank"><img src="posts/q-hq-bm-76-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-bm-76-3.jpg" target="_blank"><img src="posts/q-hq-bm-76-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Zwanzig Ideen auf dem Flipchart und eine halbe Stunde Zeit: Die Punktabfrage löst das zuverlässiger als jede Diskussionsrunde.<br><br>Funktioniert im Workshop genauso wie in der Prüfungsaufgabe zur Moderation.<br><br>Nutzt ihr das im Betrieb?</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #moderation #projektmanagement</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Do, 28.01.2027</span><span class="fmt car">Karussell &middot; 3 Folien</span>
+    <span class="num">33</span>
+    <span class="when">Di, 16.03.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Reel · 17 s</span>
+    <span class="topic">Unternehmensführung &amp; Organisation</span>
+    <span class="id">q-uf-06</span>
+  </header>
+  <video controls preload="metadata" playsinline src="reels/q-uf-06.mp4"></video>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Situatives Führen heißt: Der Stil richtet sich nach der Person, nicht nach der Vorliebe der Führungskraft.<br><br>Wer kompetent und motiviert ist, braucht keine Anweisungen, sondern Freiraum. Alles andere bremst.<br><br>Welcher Führungsstil begegnet dir am häufigsten?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #führung #unternehmensführung</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">34</span>
+    <span class="when">Do, 18.03.2027</span>
+    <span class="typ t-raetsel">Rätsel</span>
+    <span class="fmt">Karussell · 2 Folien</span>
+    <span class="topic">Investition &amp; Controlling (HQ)</span>
+    <span class="id">r-deckungsbeitrag</span>
+  </header>
+  <div class="slides s2"><a href="posts/r-deckungsbeitrag-1.jpg" target="_blank"><img src="posts/r-deckungsbeitrag-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/r-deckungsbeitrag-2.jpg" target="_blank"><img src="posts/r-deckungsbeitrag-2.jpg" alt="Folie 2" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Zwei Rechenschritte, und trotzdem die Aufgabe, bei der in der Prüfung am häufigsten die Fixkosten mit hineinrutschen.<br><br>Der Deckungsbeitrag kennt keine Fixkosten. Er sagt nur, was nach den variablen Kosten übrig bleibt.<br><br>Schreib dein Ergebnis in die Kommentare.</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #controlling #kostenrechnung</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">35</span>
+    <span class="when">Di, 23.03.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
     <span class="topic">Führung und Zusammenarbeit (HQ)</span>
     <span class="id">q-hq-fz-92</span>
   </header>
-  <div class="slides"><a href="posts/q-hq-fz-92-1.jpg" target="_blank"><img src="posts/q-hq-fz-92-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-fz-92-2.jpg" target="_blank"><img src="posts/q-hq-fz-92-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-fz-92-3.jpg" target="_blank"><img src="posts/q-hq-fz-92-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/q-hq-fz-92-1.jpg" target="_blank"><img src="posts/q-hq-fz-92-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-hq-fz-92-2.jpg" target="_blank"><img src="posts/q-hq-fz-92-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-hq-fz-92-3.jpg" target="_blank"><img src="posts/q-hq-fz-92-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
     <p class="cap">Wenn der Ausschuss steigt und keiner weiß warum: Das Ishikawa-Diagramm sortiert die Ursachen, statt sie zu erraten.<br><br>Mensch, Maschine, Material, Methode – die vier M sind der Einstieg. Qualitätsmanagement-Aufgaben greifen das gern auf.<br><br>Speichern für die Prüfung.</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #qualitätsmanagement #prozesse</p></details>
 </article><article class="post">
   <header>
-    <span class="when">Di, 02.02.2027</span><span class="fmt car">Karussell &middot; 3 Folien</span>
-    <span class="topic">Recht &amp; Steuern</span>
-    <span class="id">q-rs-66</span>
+    <span class="num">36</span>
+    <span class="when">Do, 25.03.2027</span>
+    <span class="typ t-erklaerung">Erklärung</span>
+    <span class="fmt">Karussell · 3 Folien</span>
+    <span class="topic">Rechnungswesen &amp; Finanzen</span>
+    <span class="id">e-cashflow</span>
   </header>
-  <div class="slides"><a href="posts/q-rs-66-1.jpg" target="_blank"><img src="posts/q-rs-66-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-rs-66-2.jpg" target="_blank"><img src="posts/q-rs-66-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-rs-66-3.jpg" target="_blank"><img src="posts/q-rs-66-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <div class="slides s3"><a href="posts/e-cashflow-1.jpg" target="_blank"><img src="posts/e-cashflow-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/e-cashflow-2.jpg" target="_blank"><img src="posts/e-cashflow-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/e-cashflow-3.jpg" target="_blank"><img src="posts/e-cashflow-3.jpg" alt="Folie 3" loading="lazy"></a></div>
   <details><summary>Caption anzeigen</summary>
-    <p class="cap">Paragrafen auswendig zu lernen bringt wenig – ein paar zentrale sollte man aber zuordnen können.<br><br>§ 169 AO ist einer davon: Festsetzungsverjährung. Danach ist für das Finanzamt Schluss.<br><br>Welcher Paragraf will bei dir einfach nicht hängenbleiben?</p>
+    <p class="cap">Zwei Unternehmen mit demselben Gewinn können völlig unterschiedlich dastehen. Der Unterschied heißt Cashflow.<br><br>Abschreibungen mindern den Gewinn, kosten aber in dieser Periode kein Geld. Wer das herausrechnet, sieht, was wirklich in der Kasse ankommt.<br><br>Speichern für die Bilanzanalyse.</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #bilanz #finanzierung</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">37</span>
+    <span class="when">Di, 30.03.2027</span>
+    <span class="typ t-formel">Formel</span>
+    <span class="fmt">Einzelbild</span>
+    <span class="topic">Rechnungswesen &amp; Finanzen</span>
+    <span class="id">f-eigenkapitalquote</span>
+  </header>
+  <div class="slides s1"><a href="posts/f-eigenkapitalquote-1.jpg" target="_blank"><img src="posts/f-eigenkapitalquote-1.jpg" alt="Folie 1" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Die Eigenkapitalquote ist die erste Zahl, auf die eine Bank schaut. Sie sagt, wie viel Verlust ein Unternehmen aushält, bevor es den Gläubigern ans Geld geht.<br><br>In der Prüfung steckt die Falle meist im Nenner: Gesamtkapital, nicht Fremdkapital.<br><br>Speicher dir das für die Bilanzanalyse.</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #bilanz #finanzierung</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">38</span>
+    <span class="when">Do, 01.04.2027</span>
+    <span class="typ t-verwechslung">Verwechslung</span>
+    <span class="fmt">Einzelbild</span>
+    <span class="topic">Rechnungswesen &amp; Finanzen</span>
+    <span class="id">v-bilanz-guv</span>
+  </header>
+  <div class="slides s1"><a href="posts/v-bilanz-guv-1.jpg" target="_blank"><img src="posts/v-bilanz-guv-1.jpg" alt="Folie 1" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Bestandsgrößen oder Stromgrößen – an dieser Unterscheidung hängt die halbe Bilanzbuchhaltung.<br><br>Eine Maschine steht in der Bilanz. Ihre Abschreibung steht in der GuV. Dasselbe Objekt, zwei Rechenwerke, zwei völlig verschiedene Fragen.<br><br>Speicher dir das Bild, es trägt durch viele Aufgaben.</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #bilanz #rechnungswesen</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">39</span>
+    <span class="when">Di, 06.04.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Reel · 17 s</span>
+    <span class="topic">Marketing und Vertrieb (HQ)</span>
+    <span class="id">q-hq-mv-63</span>
+  </header>
+  <video controls preload="metadata" playsinline src="reels/q-hq-mv-63.mp4"></video>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">CRM ist eine dieser Abkürzungen, die jeder benutzt und in der Prüfung trotzdem danebengeht.<br><br>Customer Relationship Management – es geht um die Beziehung, nicht um die Software. Die ist nur das Werkzeug.<br><br>Welche Abkürzung bringt dich am meisten ins Schwitzen?</p>
+    <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #marketing #vertrieb</p></details>
+</article><article class="post">
+  <header>
+    <span class="num">40</span>
+    <span class="when">Do, 08.04.2027</span>
+    <span class="typ t-quiz">Quiz</span>
+    <span class="fmt">Karussell · 3 Folien</span>
+    <span class="topic">Recht &amp; Steuern</span>
+    <span class="id">q-rs-108</span>
+  </header>
+  <div class="slides s3"><a href="posts/q-rs-108-1.jpg" target="_blank"><img src="posts/q-rs-108-1.jpg" alt="Folie 1" loading="lazy"></a><a href="posts/q-rs-108-2.jpg" target="_blank"><img src="posts/q-rs-108-2.jpg" alt="Folie 2" loading="lazy"></a><a href="posts/q-rs-108-3.jpg" target="_blank"><img src="posts/q-rs-108-3.jpg" alt="Folie 3" loading="lazy"></a></div>
+  <details><summary>Caption anzeigen</summary>
+    <p class="cap">Fünfzehn Prozent Körperschaftsteuer – das ist nur der erste Teil der Rechnung.<br><br>Dazu kommen Solidaritätszuschlag und Gewerbesteuer. Deshalb liegt die tatsächliche Belastung einer Kapitalgesellschaft deutlich höher.<br><br>Speicher dir die Systematik.</p>
     <p class="tags">#wirtschaftsfachwirt #ihkprüfung #fachwirt #weiterbildung #aufstiegsfortbildung #prüfungsvorbereitung #steuerrecht #recht</p></details>
 </article>
 </div></body></html>

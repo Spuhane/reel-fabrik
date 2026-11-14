@@ -1,0 +1,35 @@
+{
+  "id": "v-aufwand-kosten",
+  "type": "verwechslung",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "title": "Aufwand ist nicht Kosten",
+  "links": {
+    "name": "Aufwand",
+    "text": "Jeder Werteverzehr einer Periode, so wie ihn die Buchhaltung erfasst. Auch betriebsfremdes wie eine Spende."
+  },
+  "rechts": {
+    "name": "Kosten",
+    "text": "Nur der Werteverzehr, der dem eigentlichen Betriebszweck dient. Die Spende zählt hier nicht mit."
+  },
+  "merksatz": "Jede Kostenart ist Aufwand. Nicht jeder Aufwand ist Kosten.",
+  "caption": "Zwei Begriffe, die im Alltag dasselbe meinen und in der Prüfung nicht.\n\nDie Buchhaltung erfasst Aufwand, die Kostenrechnung rechnet mit Kosten. Dazwischen liegt alles, was zwar Geld kostet, aber nichts mit dem Betriebszweck zu tun hat.\n\nSpeicher dir die Abgrenzung, sie kommt in jeder Klausur zum Rechnungswesen vor.",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#rechnungswesen",
+    "#kostenrechnung"
+  ],
+  "format": "single",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/v-aufwand-kosten-1.jpg"
+  ],
+  "order": 22
+}

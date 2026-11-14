@@ -1,6 +1,6 @@
 {
   "id": "q-rs-108",
-  "type": "carousel",
+  "type": "quiz",
   "brand": "wfw",
   "status": "freigegeben",
   "source_question_id": "RS-108",
@@ -37,5 +37,6 @@
     "https://spuhane.github.io/reel-fabrik/posts/q-rs-108-2.jpg",
     "https://spuhane.github.io/reel-fabrik/posts/q-rs-108-3.jpg"
   ],
-  "order": 8
+  "order": 40,
+  "merksatz": "15 Prozent sind nur der Anfang. Soli und Gewerbesteuer kommen obendrauf."
 }

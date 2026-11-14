@@ -1,0 +1,41 @@
+{
+  "id": "f-eigenkapitalquote",
+  "type": "formel",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "title": "Eigenkapitalquote",
+  "formel": "Eigenkapital ÷ Gesamtkapital",
+  "teile": [
+    {
+      "label": "Eigenkapital",
+      "text": "Was den Eigentümern gehört"
+    },
+    {
+      "label": "Gesamtkapital",
+      "text": "Die Summe der Passivseite, also Eigen- plus Fremdkapital"
+    },
+    {
+      "label": "Ergebnis",
+      "text": "In Prozent: der Anteil, der nicht zurückgezahlt werden muss"
+    }
+  ],
+  "caption": "Die Eigenkapitalquote ist die erste Zahl, auf die eine Bank schaut. Sie sagt, wie viel Verlust ein Unternehmen aushält, bevor es den Gläubigern ans Geld geht.\n\nIn der Prüfung steckt die Falle meist im Nenner: Gesamtkapital, nicht Fremdkapital.\n\nSpeicher dir das für die Bilanzanalyse.",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#bilanz",
+    "#finanzierung"
+  ],
+  "format": "single",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/f-eigenkapitalquote-1.jpg"
+  ],
+  "order": 37
+}

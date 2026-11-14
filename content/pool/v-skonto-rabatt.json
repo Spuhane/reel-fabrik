@@ -1,0 +1,35 @@
+{
+  "id": "v-skonto-rabatt",
+  "type": "verwechslung",
+  "topic": "BWL, Marketing & Controlling",
+  "track": "WBQ",
+  "title": "Skonto ist kein Rabatt",
+  "links": {
+    "name": "Rabatt",
+    "text": "Ein Preisnachlass, der von vornherein gewährt wird, etwa für große Mengen oder treue Kunden."
+  },
+  "rechts": {
+    "name": "Skonto",
+    "text": "Ein Abzug fürs schnelle Zahlen. Er belohnt nicht den Kauf, sondern den Zahlungszeitpunkt."
+  },
+  "merksatz": "Rabatt gilt für den Kauf, Skonto für die Zahlung.",
+  "caption": "Skonto sieht nach einem kleinen Nachlass aus und ist in Wahrheit ein teurer Kredit – für den, der ihn nicht zieht.\n\n2 Prozent Skonto bei 30 Tagen Ziel entsprechen aufs Jahr gerechnet einem zweistelligen Zinssatz. Genau das wird in Prüfungsaufgaben gerechnet.\n\nZieht ihr Skonto konsequent?",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#einkauf",
+    "#bwl"
+  ],
+  "format": "single",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/v-skonto-rabatt-1.jpg"
+  ],
+  "order": 5
+}

@@ -1,0 +1,32 @@
+{
+  "id": "e-gegenstromverfahren",
+  "type": "erklaerung",
+  "topic": "Unternehmensführung & Organisation",
+  "track": "WBQ",
+  "kicker": "Kurz erklärt",
+  "begriff": "Gegenstromverfahren",
+  "untertitel": "Planung von oben und von unten zugleich",
+  "text": "Die Leitung gibt einen vorläufigen Rahmen vor. Die Fachbereiche prüfen ihn und melden zurück, was sie tatsächlich leisten können. Aus beiden Richtungen entsteht die endgültige Planung. Das dauert länger als reine Vorgaben von oben, wird aber von denen getragen, die sie umsetzen.",
+  "merksatz": "Top-down setzt den Rahmen, bottom-up prüft ihn auf Machbarkeit.",
+  "caption": "Zahlen, die von oben kommen, sind schnell beschlossen und selten erreicht. Zahlen, die nur von unten kommen, sind bequem.\n\nDas Gegenstromverfahren verbindet beides: Rahmen von oben, Realitätsprüfung von unten, Abstimmung dazwischen.\n\nWie läuft die Planung bei euch?",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#unternehmensführung",
+    "#planung"
+  ],
+  "format": "carousel",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/e-gegenstromverfahren-1.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/e-gegenstromverfahren-2.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/e-gegenstromverfahren-3.jpg"
+  ],
+  "order": 19
+}

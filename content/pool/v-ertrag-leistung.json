@@ -1,0 +1,35 @@
+{
+  "id": "v-ertrag-leistung",
+  "type": "verwechslung",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "title": "Ertrag ist nicht Leistung",
+  "links": {
+    "name": "Ertrag",
+    "text": "Der gesamte Wertzuwachs einer Periode nach Buchhaltung, auch aus dem Verkauf einer alten Maschine."
+  },
+  "rechts": {
+    "name": "Leistung",
+    "text": "Nur der Wertzuwachs aus der eigentlichen betrieblichen Tätigkeit."
+  },
+  "merksatz": "Ertrag und Aufwand gehören zur Buchhaltung, Leistung und Kosten zur Kostenrechnung.",
+  "caption": "Das Gegenstück zu Aufwand und Kosten – und genauso prüfungsrelevant.\n\nVerkauft ein Betrieb eine ausgemusterte Maschine, ist der Erlös Ertrag, aber keine Leistung. Mit dem eigentlichen Geschäft hat er nichts zu tun.\n\nMerkhilfe: Die beiden Begriffspaare laufen parallel.",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#rechnungswesen",
+    "#kostenrechnung"
+  ],
+  "format": "single",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/v-ertrag-leistung-1.jpg"
+  ],
+  "order": 30
+}

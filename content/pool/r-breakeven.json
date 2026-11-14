@@ -1,0 +1,43 @@
+{
+  "id": "r-breakeven",
+  "type": "raetsel",
+  "topic": "Investition & Controlling (HQ)",
+  "track": "HQ",
+  "gegeben": [
+    {
+      "label": "Fixkosten",
+      "wert": "50.000 €"
+    },
+    {
+      "label": "Preis je Stück",
+      "wert": "80 €"
+    },
+    {
+      "label": "variable Kosten je Stück",
+      "wert": "55 €"
+    }
+  ],
+  "frage": "Ab wie vielen Stück arbeitet der Betrieb gewinnbringend?",
+  "ergebnis": "2.000 Stück",
+  "rechenweg": "Der Deckungsbeitrag je Stück beträgt 80 € minus 55 €, also 25 €. Die Fixkosten von 50.000 € geteilt durch 25 € ergeben 2.000 Stück. Ab dem 2.001. Stück entsteht Gewinn.",
+  "caption": "Eine Aufgabe, die so oder ganz ähnlich in jeder zweiten Prüfung steht.\n\nDer Weg ist immer derselbe: erst den Deckungsbeitrag je Stück, dann die Fixkosten dadurch teilen. Wer das Schema einmal sitzen hat, löst die Aufgabe in zwei Zeilen.\n\nHattest du die 2.000?",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#controlling",
+    "#kostenrechnung"
+  ],
+  "format": "carousel",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/r-breakeven-1.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/r-breakeven-2.jpg"
+  ],
+  "order": 7
+}

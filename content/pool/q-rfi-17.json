@@ -1,6 +1,6 @@
 {
   "id": "q-rfi-17",
-  "type": "carousel",
+  "type": "quiz",
   "brand": "wfw",
   "status": "freigegeben",
   "source_question_id": "RFI-17",
@@ -37,5 +37,6 @@
     "https://spuhane.github.io/reel-fabrik/posts/q-rfi-17-2.jpg",
     "https://spuhane.github.io/reel-fabrik/posts/q-rfi-17-3.jpg"
   ],
-  "order": 7
+  "order": 21,
+  "merksatz": "Direkt zurechenbar heißt Einzelkosten. Alles andere läuft über Zuschlagssätze."
 }

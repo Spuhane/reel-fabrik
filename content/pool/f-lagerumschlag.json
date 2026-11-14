@@ -1,0 +1,41 @@
+{
+  "id": "f-lagerumschlag",
+  "type": "formel",
+  "topic": "Logistik & Prozesse (HQ)",
+  "track": "HQ",
+  "title": "Lagerumschlagshäufigkeit",
+  "formel": "Wareneinsatz ÷ Ø Lagerbestand",
+  "teile": [
+    {
+      "label": "Wareneinsatz",
+      "text": "Wert der Ware, die in der Periode verbraucht wurde"
+    },
+    {
+      "label": "Ø Lagerbestand",
+      "text": "Durchschnitt aus Anfangs- und Endbestand"
+    },
+    {
+      "label": "Ergebnis",
+      "text": "Wie oft sich das Lager im Jahr komplett erneuert"
+    }
+  ],
+  "caption": "Ein hoher Lagerumschlag bindet weniger Kapital. Ein zu hoher gefährdet die Lieferfähigkeit. Deshalb ist die Kennzahl in Logistikaufgaben fast immer eine Abwägung, keine Maximierung.\n\nAchte auf den Nenner: der Durchschnittsbestand, nicht der Endbestand.\n\nWie oft schlägt euer Lager im Jahr um?",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#logistik",
+    "#kennzahlen"
+  ],
+  "format": "single",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/f-lagerumschlag-1.jpg"
+  ],
+  "order": 20
+}

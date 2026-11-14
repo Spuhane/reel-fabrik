@@ -1,0 +1,32 @@
+{
+  "id": "e-opportunitaetskosten",
+  "type": "erklaerung",
+  "topic": "VWL & Wirtschaftspolitik",
+  "track": "WBQ",
+  "kicker": "Kurz erklärt",
+  "begriff": "Opportunitätskosten",
+  "untertitel": "Der Wert dessen, worauf man verzichtet",
+  "text": "Wer eine Halle für die eigene Produktion nutzt, zahlt dafür keine Miete. Trotzdem entstehen Kosten: die Miete, die man durch Vermietung hätte einnehmen können. Dieser entgangene Nutzen taucht in keiner Buchhaltung auf, gehört aber in jede Entscheidungsrechnung.",
+  "merksatz": "Opportunitätskosten stehen in keiner Buchhaltung und entscheiden trotzdem mit.",
+  "caption": "Die wichtigsten Kosten einer Entscheidung sind oft die, die niemand bucht.\n\nJede Ressource, die man so verwendet, kann man nicht anders verwenden. Was die beste verworfene Alternative gebracht hätte, ist der wahre Preis der Entscheidung.\n\nIn Investitionsaufgaben ist das der Unterschied zwischen richtig und fast richtig.",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#vwl",
+    "#entscheidung"
+  ],
+  "format": "carousel",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/e-opportunitaetskosten-1.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/e-opportunitaetskosten-2.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/e-opportunitaetskosten-3.jpg"
+  ],
+  "order": 28
+}

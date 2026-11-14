@@ -1,0 +1,39 @@
+{
+  "id": "r-eigenkapitalquote",
+  "type": "raetsel",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "gegeben": [
+    {
+      "label": "Eigenkapital",
+      "wert": "180.000 €"
+    },
+    {
+      "label": "Fremdkapital",
+      "wert": "420.000 €"
+    }
+  ],
+  "frage": "Wie hoch ist die Eigenkapitalquote?",
+  "ergebnis": "30 %",
+  "rechenweg": "Das Gesamtkapital beträgt 180.000 € plus 420.000 €, also 600.000 €. Davon sind 180.000 € Eigenkapital. Das ergibt 30 Prozent.",
+  "caption": "Die Falle steckt im Nenner. Gefragt ist der Anteil am Gesamtkapital, nicht das Verhältnis zum Fremdkapital.\n\nWer 180.000 durch 420.000 teilt, kommt auf 43 Prozent und liegt daneben. Erst addieren, dann teilen.\n\nBist du drauf reingefallen?",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#bilanz",
+    "#finanzierung"
+  ],
+  "format": "carousel",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/r-eigenkapitalquote-1.jpg",
+    "https://spuhane.github.io/reel-fabrik/posts/r-eigenkapitalquote-2.jpg"
+  ],
+  "order": 25
+}

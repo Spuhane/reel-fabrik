@@ -1,0 +1,35 @@
+{
+  "id": "v-liquiditaet-rentabilitaet",
+  "type": "verwechslung",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "title": "Liquidität ist nicht Rentabilität",
+  "links": {
+    "name": "Liquidität",
+    "text": "Die Fähigkeit, Rechnungen pünktlich zu bezahlen. Eine Frage des Zeitpunkts."
+  },
+  "rechts": {
+    "name": "Rentabilität",
+    "text": "Das Verhältnis von Gewinn zum eingesetzten Kapital. Eine Frage des Erfolgs."
+  },
+  "merksatz": "An fehlender Rentabilität stirbt ein Betrieb langsam. An fehlender Liquidität sofort.",
+  "caption": "Ein Unternehmen kann profitabel sein und trotzdem insolvent gehen. Das klingt widersprüchlich und ist der häufigste Grund für Insolvenzen im Mittelstand.\n\nGewinn steht in der GuV. Liquidität steht auf dem Konto. Zwischen beiden liegen Zahlungsziele, Lagerbestände und offene Forderungen.\n\nWelche der beiden beobachtet ihr enger?",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#finanzierung",
+    "#controlling"
+  ],
+  "format": "single",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/v-liquiditaet-rentabilitaet-1.jpg"
+  ],
+  "order": 13
+}

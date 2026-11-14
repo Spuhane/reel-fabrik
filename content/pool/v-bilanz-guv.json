@@ -1,0 +1,35 @@
+{
+  "id": "v-bilanz-guv",
+  "type": "verwechslung",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "title": "Bilanz oder GuV?",
+  "links": {
+    "name": "Bilanz",
+    "text": "Eine Momentaufnahme zum Stichtag. Zeigt Vermögen und Kapital, also Bestände."
+  },
+  "rechts": {
+    "name": "GuV",
+    "text": "Eine Zeitraumrechnung. Zeigt Aufwand und Ertrag einer ganzen Periode."
+  },
+  "merksatz": "Die Bilanz ist ein Foto, die GuV ein Film.",
+  "caption": "Bestandsgrößen oder Stromgrößen – an dieser Unterscheidung hängt die halbe Bilanzbuchhaltung.\n\nEine Maschine steht in der Bilanz. Ihre Abschreibung steht in der GuV. Dasselbe Objekt, zwei Rechenwerke, zwei völlig verschiedene Fragen.\n\nSpeicher dir das Bild, es trägt durch viele Aufgaben.",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#bilanz",
+    "#rechnungswesen"
+  ],
+  "format": "single",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/v-bilanz-guv-1.jpg"
+  ],
+  "order": 38
+}

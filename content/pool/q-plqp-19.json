@@ -1,6 +1,6 @@
 {
   "id": "q-plqp-19",
-  "type": "carousel",
+  "type": "quiz",
   "brand": "wfw",
   "status": "freigegeben",
   "source_question_id": "PLQP-19",
@@ -37,5 +37,6 @@
     "https://spuhane.github.io/reel-fabrik/posts/q-plqp-19-2.jpg",
     "https://spuhane.github.io/reel-fabrik/posts/q-plqp-19-3.jpg"
   ],
-  "order": 6
+  "order": 17,
+  "merksatz": "Fünfmal warum, und die Ursache steht woanders als vermutet."
 }

@@ -1,0 +1,41 @@
+{
+  "id": "f-roi",
+  "type": "formel",
+  "topic": "BWL, Marketing & Controlling",
+  "track": "WBQ",
+  "title": "Return on Investment",
+  "formel": "Umsatzrendite × Kapitalumschlag",
+  "teile": [
+    {
+      "label": "Umsatzrendite",
+      "text": "Gewinn geteilt durch Umsatz"
+    },
+    {
+      "label": "Kapitalumschlag",
+      "text": "Umsatz geteilt durch eingesetztes Kapital"
+    },
+    {
+      "label": "Ergebnis",
+      "text": "Wie viel das eingesetzte Kapital verdient"
+    }
+  ],
+  "caption": "Der ROI lässt sich auf zwei Wegen verbessern: mehr Gewinn je Euro Umsatz, oder mehr Umsatz je Euro Kapital.\n\nGenau das macht die DuPont-Zerlegung sichtbar. Wer in der Prüfung nur die Formel kennt, kann rechnen. Wer die zwei Stellschrauben kennt, kann argumentieren.\n\nAn welcher der beiden würdest du zuerst drehen?",
+  "brand": "wfw",
+  "status": "freigegeben",
+  "freigegeben_am": "2026-11-14",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#controlling",
+    "#kennzahlen"
+  ],
+  "format": "single",
+  "images": [
+    "https://spuhane.github.io/reel-fabrik/posts/f-roi-1.jpg"
+  ],
+  "order": 4
+}
