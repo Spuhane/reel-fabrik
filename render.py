@@ -244,8 +244,11 @@ def scene_points(img, brand, data, t, t0, step):
 
         # Index-Marker
         mx, my = MARGIN_X, y + off
-        d.rounded_rectangle([mx, my, mx + 62, my + 62], radius=20,
-                            fill=acc + (int(38 * p),), outline=acc + (int(170 * p),), width=2)
+        marker = Image.new("RGBA", img.size, (0, 0, 0, 0))
+        ImageDraw.Draw(marker).rounded_rectangle(
+            [mx, my, mx + 62, my + 62], radius=20,
+            fill=acc + (int(38 * p),), outline=acc + (int(170 * p),), width=2)
+        img.alpha_composite(marker)
         d.text((mx + 31, my + 33), str(i + 1), font=font("InterDisplay-Bold", 34),
                fill=acc + (a,), anchor="mm")
 
