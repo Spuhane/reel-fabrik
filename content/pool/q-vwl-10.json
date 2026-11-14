@@ -1,0 +1,33 @@
+{
+  "id": "q-vwl-10",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "VWL-10",
+  "topic": "VWL & Wirtschaftspolitik",
+  "track": "WBQ",
+  "question": {
+    "id": "VWL-10",
+    "question": "Nominal vs. real BIP?",
+    "social_question": "Nominales oder reales BIP – was ist der Unterschied?",
+    "options": [
+      "Real = preisbereinigt",
+      "Real = inkl. Schwarzmarkt",
+      "Nominal = preisbereinigt",
+      "Kein Unterschied"
+    ],
+    "correct": 0
+  },
+  "explanation": "Das nominale Bruttoinlandsprodukt wird zu den Preisen des laufenden Jahres gerechnet, das reale zu konstanten Preisen eines Basisjahres. Nur das reale BIP zeigt echtes Wachstum, weil die Preisentwicklung herausgerechnet ist.",
+  "caption": "Die Wirtschaft ist um vier Prozent gewachsen – nominal. Real waren es vielleicht eins.\n\nDer Unterschied ist die Inflation. Wer beide Größen verwechselt, liest jede Konjunkturmeldung falsch.\n\nWie sicher bist du bei den VWL-Grundbegriffen?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#vwl",
+    "#konjunktur"
+  ]
+}

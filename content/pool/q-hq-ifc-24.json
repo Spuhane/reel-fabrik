@@ -1,0 +1,33 @@
+{
+  "id": "q-hq-ifc-24",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "HQ_IFC-24",
+  "topic": "Investition & Controlling (HQ)",
+  "track": "HQ",
+  "question": {
+    "id": "HQ_IFC-24",
+    "question": "Welche Form gehört zur Außenfinanzierung?",
+    "social_question": "Welche Form gehört zur Außenfinanzierung?",
+    "options": [
+      "Rücklagenbildung",
+      "Einlagen von Gesellschaftern",
+      "Abschreibungsgegenwerte",
+      "Selbstfinanzierung"
+    ],
+    "correct": 1
+  },
+  "explanation": "Außenfinanzierung bedeutet, dass Kapital von außen zufließt, etwa durch Einlagen der Gesellschafter oder durch Kredite. Rücklagenbildung, Selbstfinanzierung und Abschreibungsgegenwerte entstehen dagegen im Unternehmen selbst und zählen zur Innenfinanzierung.",
+  "caption": "Innen- oder Außenfinanzierung? Die Frage ist immer: Kommt das Geld von außen herein oder entsteht es im Unternehmen?\n\nGesellschaftereinlagen und Kredite kommen von außen. Alles, was aus dem eigenen Umsatz stammt, bleibt innen.\n\nSpeicher dir die Systematik.",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#finanzierung",
+    "#bwl"
+  ]
+}

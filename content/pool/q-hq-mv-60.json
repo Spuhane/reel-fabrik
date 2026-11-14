@@ -1,0 +1,33 @@
+{
+  "id": "q-hq-mv-60",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "HQ_MV-60",
+  "topic": "Marketing und Vertrieb (HQ)",
+  "track": "HQ",
+  "question": {
+    "id": "HQ_MV-60",
+    "question": "Was bedeutet SEA?",
+    "social_question": "Wofür steht SEA im Online-Marketing?",
+    "options": [
+      "Bezahlte Werbung in Suchmaschinen",
+      "Organische Suchergebnisse",
+      "Newsletterversand",
+      "Analyse der Kundenzufriedenheit"
+    ],
+    "correct": 0
+  },
+  "explanation": "SEA steht für Search Engine Advertising, also bezahlte Anzeigen in Suchmaschinen wie Google Ads. Davon zu unterscheiden ist SEO, die Suchmaschinenoptimierung, die auf unbezahlte Treffer zielt.",
+  "caption": "SEA und SEO klingen fast gleich und meinen das Gegenteil voneinander: einmal bezahlt, einmal organisch.\n\nIn Marketingaufgaben steht fast immer diese Abgrenzung im Mittelpunkt.\n\nSpeicher dir den Unterschied, bevor die Prüfung danach fragt.",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#marketing",
+    "#onlinemarketing"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "q-hq-lp-36",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "HQ_LP-36",
+  "topic": "Logistik & Prozesse (HQ)",
+  "track": "HQ",
+  "question": {
+    "id": "HQ_LP-36",
+    "question": "Welche Transportart ist am schnellsten?",
+    "social_question": "Welche Transportart ist die schnellste?",
+    "options": [
+      "LKW",
+      "Bahn",
+      "Flugzeug",
+      "Seeschiff"
+    ],
+    "correct": 2
+  },
+  "explanation": "Luftfracht ist die schnellste Transportart, zugleich aber die teuerste je Tonnenkilometer. In Logistikaufgaben geht es deshalb fast immer um den Zielkonflikt zwischen Geschwindigkeit, Kosten und Transportmenge.",
+  "caption": "Am schnellsten heißt nicht am besten. Luftfracht gewinnt bei der Zeit und verliert beim Preis.\n\nLogistikaufgaben prüfen fast nie eine Transportart allein, sondern die Abwägung zwischen Zeit, Kosten und Menge.\n\nWelches Verkehrsmittel nutzt ihr am häufigsten?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#logistik",
+    "#transport"
+  ]
+}

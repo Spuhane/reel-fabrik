@@ -1,0 +1,33 @@
+{
+  "id": "q-hq-bm-76",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "HQ_BM-76",
+  "topic": "Betriebliches Management (HQ)",
+  "track": "HQ",
+  "question": {
+    "id": "HQ_BM-76",
+    "question": "Was ist eine Priorisierungstechnik für viele Ideen?",
+    "social_question": "Womit priorisiert man schnell eine große Menge an Ideen?",
+    "options": [
+      "Punktabfrage (Dot-Voting)",
+      "Lagerbestandsanalyse",
+      "Dienstplanerstellung",
+      "Urlaubsplanung"
+    ],
+    "correct": 0
+  },
+  "explanation": "Bei der Punktabfrage bekommt jede Person eine feste Zahl an Klebepunkten und verteilt sie auf die gesammelten Ideen. In wenigen Minuten entsteht so eine Rangfolge, die alle mitgetragen haben.",
+  "caption": "Zwanzig Ideen auf dem Flipchart und eine halbe Stunde Zeit: Die Punktabfrage löst das zuverlässiger als jede Diskussionsrunde.\n\nFunktioniert im Workshop genauso wie in der Prüfungsaufgabe zur Moderation.\n\nNutzt ihr das im Betrieb?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#moderation",
+    "#projektmanagement"
+  ]
+}

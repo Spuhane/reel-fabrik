@@ -1,0 +1,33 @@
+{
+  "id": "q-hq-fz-92",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "HQ_FZ-92",
+  "topic": "Führung und Zusammenarbeit (HQ)",
+  "track": "HQ",
+  "question": {
+    "id": "HQ_FZ-92",
+    "question": "Wozu dient ein Ishikawa-Diagramm?",
+    "social_question": "Wozu dient ein Ishikawa-Diagramm?",
+    "options": [
+      "Zur Ursachenanalyse eines Problems",
+      "Zur Berechnung von Kennzahlen",
+      "Zur Definition von Rollen im Team",
+      "Zur Erstellung eines Zeitplans"
+    ],
+    "correct": 0
+  },
+  "explanation": "Das Ishikawa-Diagramm, auch Fischgräten- oder Ursache-Wirkungs-Diagramm genannt, ordnet mögliche Ursachen eines Problems nach Kategorien wie Mensch, Maschine, Material und Methode. So wird sichtbar, wo die Suche nach der Wurzelursache ansetzen sollte.",
+  "caption": "Wenn der Ausschuss steigt und keiner weiß warum: Das Ishikawa-Diagramm sortiert die Ursachen, statt sie zu erraten.\n\nMensch, Maschine, Material, Methode – die vier M sind der Einstieg. Qualitätsmanagement-Aufgaben greifen das gern auf.\n\nSpeichern für die Prüfung.",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#qualitätsmanagement",
+    "#prozesse"
+  ]
+}

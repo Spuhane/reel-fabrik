@@ -1,0 +1,33 @@
+{
+  "id": "q-uf-06",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "UF-06",
+  "topic": "Unternehmensführung & Organisation",
+  "track": "WBQ",
+  "question": {
+    "id": "UF-06",
+    "question": "Situatives Führen: Stil bei R4?",
+    "social_question": "Situatives Führen: Welcher Stil passt zu Reifegrad R4?",
+    "options": [
+      "Delegating",
+      "Telling",
+      "Selling",
+      "Coaching"
+    ],
+    "correct": 0
+  },
+  "explanation": "Reifegrad R4 beschreibt Mitarbeitende, die fachlich kompetent und zugleich motiviert sind. Dafür ist Delegating der passende Stil: hohe Autonomie, wenig Steuerung. Telling eignet sich dagegen für R1, wenn weder Können noch Zutrauen vorhanden sind.",
+  "caption": "Situatives Führen heißt: Der Stil richtet sich nach der Person, nicht nach der Vorliebe der Führungskraft.\n\nWer kompetent und motiviert ist, braucht keine Anweisungen, sondern Freiraum. Alles andere bremst.\n\nWelcher Führungsstil begegnet dir am häufigsten?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#führung",
+    "#unternehmensführung"
+  ]
+}

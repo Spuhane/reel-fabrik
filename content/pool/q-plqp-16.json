@@ -1,0 +1,34 @@
+{
+  "id": "q-plqp-16",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "PLQP-16",
+  "topic": "Projekte, Logistik, Qualität & Prozesse",
+  "track": "WBQ",
+  "question": {
+    "id": "PLQP-16",
+    "question": "Daily Scrum dauert maximal …",
+    "social_question": "Wie lange darf ein Daily Scrum höchstens dauern?",
+    "options": [
+      "15 Minuten",
+      "30 Minuten",
+      "1 Stunde",
+      "5 Minuten"
+    ],
+    "correct": 0
+  },
+  "explanation": "Das Daily Scrum ist auf 15 Minuten begrenzt. In dieser Zeit synchronisiert sich das Team über Fortschritt, Hindernisse und die Planung des Tages. Die kurze Dauer ist Teil des Formats, nicht eine Empfehlung.",
+  "caption": "Fünfzehn Minuten, im Stehen, jeden Tag. Wer das Daily länger zieht, hat kein Daily mehr, sondern ein Meeting.\n\nIn Prüfungsaufgaben zu agilen Methoden wird die Zeitbegrenzung gern abgefragt.\n\nWie lange dauern eure Dailys wirklich?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#agil",
+    "#projektmanagement",
+    "#scrum"
+  ]
+}

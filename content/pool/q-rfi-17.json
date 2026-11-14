@@ -1,0 +1,33 @@
+{
+  "id": "q-rfi-17",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "RFI-17",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "question": {
+    "id": "RFI-17",
+    "question": "Gemeinkosten sind ...",
+    "social_question": "Was kennzeichnet Gemeinkosten?",
+    "options": [
+      "nicht direkt zuordenbar",
+      "immer variabel",
+      "immer einzelkosten",
+      "nur in der Bilanz"
+    ],
+    "correct": 0
+  },
+  "explanation": "Gemeinkosten lassen sich einem einzelnen Kostenträger nicht direkt zurechnen. Miete, Energie oder Verwaltung fallen für den gesamten Betrieb an und werden über Zuschlagssätze verteilt. Einzelkosten dagegen gehören direkt zu einem Produkt.",
+  "caption": "Einzelkosten oder Gemeinkosten? Die Prüfungsfrage lautet nie anders als: Kann ich diese Kosten einem Produkt direkt zuordnen?\n\nMiete und Verwaltung kann man nicht. Deshalb der Umweg über Zuschlagssätze im BAB.\n\nSpeicher dir die Abgrenzung.",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#rechnungswesen",
+    "#kostenrechnung"
+  ]
+}

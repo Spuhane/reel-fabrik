@@ -1,0 +1,33 @@
+{
+  "id": "q-hq-lp-52",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "HQ_LP-52",
+  "topic": "Logistik & Prozesse (HQ)",
+  "track": "HQ",
+  "question": {
+    "id": "HQ_LP-52",
+    "question": "Welche Kennzahl misst die Lieferperformance?",
+    "social_question": "Welche Kennzahl misst die Lieferperformance?",
+    "options": [
+      "Termintreue",
+      "Eigenkapitalquote",
+      "ROI",
+      "Lagerumschlag"
+    ],
+    "correct": 0
+  },
+  "explanation": "Die Termintreue gibt an, welcher Anteil der Lieferungen zum zugesagten Termin beim Kunden ankommt. Sie misst damit die Zuverlässigkeit gegenüber dem Kunden, während Lagerumschlag und ROI andere Fragen beantworten.",
+  "caption": "Termintreue ist die Kennzahl, an der Kunden eine Lieferbeziehung bewerten – nicht am Preis und nicht am Lagerbestand.\n\nIn Logistikaufgaben wird sie gern gegen andere Kennzahlen gestellt, die ganz andere Dinge messen.\n\nWie steht ihr bei der Termintreue da?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#logistik",
+    "#kennzahlen"
+  ]
+}

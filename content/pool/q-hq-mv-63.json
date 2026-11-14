@@ -1,0 +1,33 @@
+{
+  "id": "q-hq-mv-63",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "HQ_MV-63",
+  "topic": "Marketing und Vertrieb (HQ)",
+  "track": "HQ",
+  "question": {
+    "id": "HQ_MV-63",
+    "question": "Was bedeutet CRM?",
+    "social_question": "Wofür steht CRM?",
+    "options": [
+      "Customer Relationship Management",
+      "Cost Reduction Management",
+      "Communication Role Model",
+      "Cashflow-Rendite-Modell"
+    ],
+    "correct": 0
+  },
+  "explanation": "CRM steht für Customer Relationship Management. Gemeint ist die systematische Pflege der Kundenbeziehungen über alle Kontaktpunkte hinweg, meist gestützt auf eine Software, die Kundendaten und Vorgänge bündelt.",
+  "caption": "CRM ist eine dieser Abkürzungen, die jeder benutzt und in der Prüfung trotzdem danebengeht.\n\nCustomer Relationship Management – es geht um die Beziehung, nicht um die Software. Die ist nur das Werkzeug.\n\nWelche Abkürzung bringt dich am meisten ins Schwitzen?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#marketing",
+    "#vertrieb"
+  ]
+}

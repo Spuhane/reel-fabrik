@@ -1,0 +1,33 @@
+{
+  "id": "q-rs-108",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "RS-108",
+  "topic": "Recht & Steuern",
+  "track": "WBQ",
+  "question": {
+    "id": "RS-108",
+    "question": "Wie hoch ist der Körperschaftsteuersatz?",
+    "social_question": "Wie hoch ist der Körperschaftsteuersatz?",
+    "options": [
+      "25 %",
+      "30 %",
+      "15 %",
+      "18 %"
+    ],
+    "correct": 2
+  },
+  "explanation": "Der Körperschaftsteuersatz beträgt 15 Prozent des zu versteuernden Einkommens. Hinzu kommt der Solidaritätszuschlag auf die Körperschaftsteuer, außerdem fällt für den Gewerbebetrieb noch Gewerbesteuer an.",
+  "caption": "Fünfzehn Prozent Körperschaftsteuer – das ist nur der erste Teil der Rechnung.\n\nDazu kommen Solidaritätszuschlag und Gewerbesteuer. Deshalb liegt die tatsächliche Belastung einer Kapitalgesellschaft deutlich höher.\n\nSpeicher dir die Systematik.",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#steuerrecht",
+    "#recht"
+  ]
+}

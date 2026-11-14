@@ -1,0 +1,33 @@
+{
+  "id": "q-rfi-111",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "RFI-111",
+  "topic": "Rechnungswesen & Finanzen",
+  "track": "WBQ",
+  "question": {
+    "id": "RFI-111",
+    "question": "FIFO bedeutet…",
+    "social_question": "Wofür steht FIFO?",
+    "options": [
+      "First In – First Out",
+      "Fast Input – Fast Output",
+      "Fixkosten In – Fixkosten Out",
+      "File In – File Out"
+    ],
+    "correct": 0
+  },
+  "explanation": "FIFO steht für First In, First Out. Die zuerst beschafften Güter werden zuerst entnommen oder verbraucht. In der Bewertung bedeutet das, dass der Lagerbestand mit den Preisen der jüngsten Zugänge bewertet wird.",
+  "caption": "FIFO klingt nach Lagerorganisation und ist zugleich ein Bewertungsverfahren im Rechnungswesen. Beide Seiten können geprüft werden.\n\nFirst In, First Out: Was zuerst kam, geht zuerst raus.\n\nWie sicher bist du bei den Bewertungsverfahren?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#rechnungswesen",
+    "#lager"
+  ]
+}

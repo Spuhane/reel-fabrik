@@ -1,0 +1,33 @@
+{
+  "id": "q-hq-bm-47",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "HQ_BM-47",
+  "topic": "Betriebliches Management (HQ)",
+  "track": "HQ",
+  "question": {
+    "id": "HQ_BM-47",
+    "question": "Was ist eine Stabsstelle?",
+    "social_question": "Was ist eine Stabsstelle?",
+    "options": [
+      "Eine beratende Einheit ohne Weisungsbefugnis",
+      "Die höchste Weisungsinstanz im Unternehmen",
+      "Eine externe Beratungsfirma",
+      "Eine operative Fertigungsstelle"
+    ],
+    "correct": 0
+  },
+  "explanation": "Stabsstellen unterstützen die Führung mit Fachwissen, etwa Recht, Controlling oder Qualitätsmanagement. Sie beraten und bereiten Entscheidungen vor, dürfen aber selbst keine Weisungen erteilen. Genau diese fehlende Weisungsbefugnis ist das Prüfungsmerkmal.",
+  "caption": "Die Stabsstelle ist ein Klassiker – und die Falle steckt immer an derselben Stelle: Beratung ja, Weisung nein.\n\nWer das verwechselt, verliert Punkte bei jeder Aufgabe zur Aufbauorganisation.\n\nSpeicher dir das für die Wiederholung.",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#organisation",
+    "#unternehmensführung"
+  ]
+}

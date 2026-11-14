@@ -1,0 +1,33 @@
+{
+  "id": "q-plqp-19",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "PLQP-19",
+  "topic": "Projekte, Logistik, Qualität & Prozesse",
+  "track": "WBQ",
+  "question": {
+    "id": "PLQP-19",
+    "question": "5-Why Methode dient …",
+    "social_question": "Wozu dient die 5-Why-Methode?",
+    "options": [
+      "der Ursachenfindung",
+      "der Kostenberechnung",
+      "dem Projektabschluss",
+      "der Auditplanung"
+    ],
+    "correct": 0
+  },
+  "explanation": "Bei der 5-Why-Methode wird fünfmal hintereinander nach dem Warum gefragt, bis man von der sichtbaren Störung bei der eigentlichen Wurzelursache ankommt. Sie verhindert, dass nur das Symptom behoben wird.",
+  "caption": "Die Maschine stand still. Warum? Und warum? Und warum?\n\nNach dem fünften Warum steht meistens eine ganz andere Ursache da als die, die man zuerst vermutet hat. Genau das ist der Zweck der Methode.\n\nKennst du das aus deinem Betrieb?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#qualitätsmanagement",
+    "#prozesse"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "q-hq-ifc-69",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "HQ_IFC-69",
+  "topic": "Investition & Controlling (HQ)",
+  "track": "HQ",
+  "question": {
+    "id": "HQ_IFC-69",
+    "question": "Was passiert am Break-even-Punkt?",
+    "social_question": "Was passiert am Break-even-Punkt?",
+    "options": [
+      "Umsatz = variable Kosten",
+      "Umsatz = Gesamtkosten",
+      "Gewinn ist maximal",
+      "Alle Kosten sind variabel"
+    ],
+    "correct": 1
+  },
+  "explanation": "Am Break-even-Punkt deckt der Umsatz exakt die Gesamtkosten aus Fixkosten und variablen Kosten. Der Gewinn ist genau null. Jede weitere verkaufte Einheit bringt ab diesem Punkt Gewinn.",
+  "caption": "Der Break-even ist nicht der Punkt des höchsten Gewinns – das ist die häufigste Verwechslung.\n\nEr ist der Punkt, an dem der Verlust aufhört. Gewinn null, alle Kosten gedeckt. Erst danach wird verdient.\n\nWie sicher bist du bei Break-even-Aufgaben?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#controlling",
+    "#kostenrechnung"
+  ]
+}

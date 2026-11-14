@@ -1,0 +1,33 @@
+{
+  "id": "q-rs-66",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "RS-66",
+  "topic": "Recht & Steuern",
+  "track": "WBQ",
+  "question": {
+    "id": "RS-66",
+    "question": "Was regelt § 169 AO?",
+    "social_question": "Was regelt § 169 AO?",
+    "options": [
+      "Festsetzungsverjährung",
+      "Steuergeheimnis",
+      "Haftung",
+      "Einkunftsarten"
+    ],
+    "correct": 0
+  },
+  "explanation": "§ 169 der Abgabenordnung regelt die Festsetzungsverjährung, also die Fristen, innerhalb derer das Finanzamt eine Steuer noch festsetzen oder ändern darf. Nach Ablauf dieser Frist ist eine Änderung nicht mehr möglich.",
+  "caption": "Paragrafen auswendig zu lernen bringt wenig – ein paar zentrale sollte man aber zuordnen können.\n\n§ 169 AO ist einer davon: Festsetzungsverjährung. Danach ist für das Finanzamt Schluss.\n\nWelcher Paragraf will bei dir einfach nicht hängenbleiben?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#steuerrecht",
+    "#recht"
+  ]
+}

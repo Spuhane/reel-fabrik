@@ -1,0 +1,33 @@
+{
+  "id": "q-hq-fz-45",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "HQ_FZ-45",
+  "topic": "Führung und Zusammenarbeit (HQ)",
+  "track": "HQ",
+  "question": {
+    "id": "HQ_FZ-45",
+    "question": "Welche Maßnahme zählt zu On-the-job?",
+    "social_question": "Welche Maßnahme zählt zur Personalentwicklung on the job?",
+    "options": [
+      "Job Rotation und Projektarbeit",
+      "Assessment-Center",
+      "Abschlussgespräche",
+      "Vorruhestandsmodelle"
+    ],
+    "correct": 0
+  },
+  "explanation": "On the job heißt: Die Entwicklung findet direkt am Arbeitsplatz statt. Dazu zählen Job Rotation, Projektarbeit, Job Enlargement und Job Enrichment. Assessment-Center und Seminare laufen dagegen außerhalb der eigentlichen Tätigkeit.",
+  "caption": "On the job, off the job, near the job – drei Begriffe, die in der Prüfung regelmäßig durcheinandergeraten.\n\nDie Trennlinie ist einfach: Passiert es am Arbeitsplatz selbst oder daneben?\n\nWelche Maßnahme hast du zuletzt im Betrieb erlebt?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#personalentwicklung",
+    "#führung"
+  ]
+}

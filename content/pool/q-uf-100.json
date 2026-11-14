@@ -1,0 +1,33 @@
+{
+  "id": "q-uf-100",
+  "type": "carousel",
+  "brand": "wfw",
+  "status": "entwurf",
+  "source_question_id": "UF-100",
+  "topic": "Unternehmensführung & Organisation",
+  "track": "WBQ",
+  "question": {
+    "id": "UF-100",
+    "question": "Outcome vs. Output...",
+    "social_question": "Outcome oder Output – worin liegt der Unterschied?",
+    "options": [
+      "Wirkung vs. Menge",
+      "beides Menge",
+      "beides Wirkung",
+      "keins von beidem"
+    ],
+    "correct": 0
+  },
+  "explanation": "Output ist die erzeugte Menge, also was ein Prozess hervorbringt. Outcome ist die Wirkung, die damit erzielt wird. Zehn Schulungen sind Output. Dass danach weniger Fehler passieren, ist der Outcome.",
+  "caption": "Zehn Schulungen durchgeführt klingt nach Erfolg. Aber was hat sich dadurch verändert?\n\nOutput ist die Menge, Outcome die Wirkung. Zielvereinbarungen, die nur den Output messen, steuern am eigentlichen Zweck vorbei.\n\nWoran werdet ihr gemessen?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#fachwirt",
+    "#weiterbildung",
+    "#aufstiegsfortbildung",
+    "#prüfungsvorbereitung",
+    "#unternehmensführung",
+    "#controlling"
+  ]
+}
