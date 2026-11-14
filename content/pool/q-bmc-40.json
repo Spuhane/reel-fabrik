@@ -2,7 +2,7 @@
   "id": "q-bmc-40",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "BMC-40",
   "topic": "BWL, Marketing & Controlling",
   "track": "WBQ",
@@ -30,5 +30,6 @@
     "#controlling",
     "#kennzahlen",
     "#bwl"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

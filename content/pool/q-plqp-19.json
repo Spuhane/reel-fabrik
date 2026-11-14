@@ -2,7 +2,7 @@
   "id": "q-plqp-19",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "PLQP-19",
   "topic": "Projekte, Logistik, Qualität & Prozesse",
   "track": "WBQ",
@@ -29,5 +29,6 @@
     "#prüfungsvorbereitung",
     "#qualitätsmanagement",
     "#prozesse"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

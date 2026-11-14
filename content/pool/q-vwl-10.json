@@ -2,7 +2,7 @@
   "id": "q-vwl-10",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "VWL-10",
   "topic": "VWL & Wirtschaftspolitik",
   "track": "WBQ",
@@ -29,5 +29,6 @@
     "#prüfungsvorbereitung",
     "#vwl",
     "#konjunktur"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

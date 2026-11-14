@@ -2,7 +2,7 @@
   "id": "q-hq-lp-52",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "HQ_LP-52",
   "topic": "Logistik & Prozesse (HQ)",
   "track": "HQ",
@@ -29,5 +29,6 @@
     "#prüfungsvorbereitung",
     "#logistik",
     "#kennzahlen"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

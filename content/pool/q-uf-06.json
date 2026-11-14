@@ -2,7 +2,7 @@
   "id": "q-uf-06",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "UF-06",
   "topic": "Unternehmensführung & Organisation",
   "track": "WBQ",
@@ -29,5 +29,6 @@
     "#prüfungsvorbereitung",
     "#führung",
     "#unternehmensführung"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

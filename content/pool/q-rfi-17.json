@@ -2,7 +2,7 @@
   "id": "q-rfi-17",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "RFI-17",
   "topic": "Rechnungswesen & Finanzen",
   "track": "WBQ",
@@ -29,5 +29,6 @@
     "#prüfungsvorbereitung",
     "#rechnungswesen",
     "#kostenrechnung"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

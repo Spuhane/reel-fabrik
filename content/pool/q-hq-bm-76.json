@@ -2,7 +2,7 @@
   "id": "q-hq-bm-76",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "HQ_BM-76",
   "topic": "Betriebliches Management (HQ)",
   "track": "HQ",
@@ -29,5 +29,6 @@
     "#prüfungsvorbereitung",
     "#moderation",
     "#projektmanagement"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

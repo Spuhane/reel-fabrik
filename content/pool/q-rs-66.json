@@ -2,7 +2,7 @@
   "id": "q-rs-66",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "RS-66",
   "topic": "Recht & Steuern",
   "track": "WBQ",
@@ -29,5 +29,6 @@
     "#prüfungsvorbereitung",
     "#steuerrecht",
     "#recht"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

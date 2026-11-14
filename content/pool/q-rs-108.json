@@ -2,7 +2,7 @@
   "id": "q-rs-108",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "RS-108",
   "topic": "Recht & Steuern",
   "track": "WBQ",
@@ -29,5 +29,6 @@
     "#prüfungsvorbereitung",
     "#steuerrecht",
     "#recht"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

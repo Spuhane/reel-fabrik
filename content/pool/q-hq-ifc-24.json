@@ -2,7 +2,7 @@
   "id": "q-hq-ifc-24",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "HQ_IFC-24",
   "topic": "Investition & Controlling (HQ)",
   "track": "HQ",
@@ -29,5 +29,6 @@
     "#prüfungsvorbereitung",
     "#finanzierung",
     "#bwl"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

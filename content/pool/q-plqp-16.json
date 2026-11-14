@@ -2,7 +2,7 @@
   "id": "q-plqp-16",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "PLQP-16",
   "topic": "Projekte, Logistik, Qualität & Prozesse",
   "track": "WBQ",
@@ -30,5 +30,6 @@
     "#agil",
     "#projektmanagement",
     "#scrum"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }

@@ -2,7 +2,7 @@
   "id": "q-rfi-111",
   "type": "carousel",
   "brand": "wfw",
-  "status": "entwurf",
+  "status": "freigegeben",
   "source_question_id": "RFI-111",
   "topic": "Rechnungswesen & Finanzen",
   "track": "WBQ",
@@ -29,5 +29,6 @@
     "#prüfungsvorbereitung",
     "#rechnungswesen",
     "#lager"
-  ]
+  ],
+  "freigegeben_am": "2026-11-14"
 }
