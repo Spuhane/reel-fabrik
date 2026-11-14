@@ -1,0 +1,13 @@
+{
+  "key": "sw",
+  "name": "SW Schulungen",
+  "url": "sw-schulungen.de",
+  "mark": "SW",
+  "bg": "#060708",
+  "accent": "#2E8BFF",
+  "accent_soft": "#6BADFF",
+  "secondary": "#FF7A1A",
+  "text": "#FFFFFF",
+  "text_dim": "#99A1AD",
+  "badge_text": "Arbeitssicherheit · Stapler · Digitalisierung"
+}

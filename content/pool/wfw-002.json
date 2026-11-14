@@ -1,0 +1,31 @@
+{
+  "id": "wfw-002",
+  "brand": "wfw",
+  "hook": "3 Fehler, die dich\nin der Prüfung\nPunkte kosten",
+  "hook_sub": "Alle drei haben nichts mit deinem Fachwissen zu tun.",
+  "points": [
+    {
+      "title": "Du ignorierst den Operator",
+      "body": "\"Erläutern\" verlangt eine Begründung, \"nennen\" nicht. Punkte gibt es nur für das, was gefordert ist."
+    },
+    {
+      "title": "Du rechnest ohne Rechenweg",
+      "body": "Ein Zahlendreher kostet dich alles. Mit sichtbarem Weg bekommst du Folgepunkte trotz falschem Ergebnis."
+    },
+    {
+      "title": "Du bleibst an einer Aufgabe kleben",
+      "body": "Zeitbudget vorher festlegen. Überzogen heißt weitergehen und am Ende zurückkommen."
+    }
+  ],
+  "outro": "Mit Prüfungssimulation üben",
+  "caption": "Punkte gehen in der Prüfung selten durch fehlendes Wissen verloren. Sondern durch Bearbeitungsfehler.\n\n1. Der Operator steuert die Antwort. \"Nennen\" will eine Aufzählung, \"erläutern\" eine Begründung, \"beurteilen\" eine Abwägung mit Ergebnis. Wer am Operator vorbeischreibt, schreibt an den Punkten vorbei.\n\n2. Rechenweg immer sichtbar lassen. Ein falsches Zwischenergebnis ist mit nachvollziehbarem Weg nur ein Teilabzug statt null Punkten.\n\n3. Zeitbudget pro Aufgabe festlegen und einhalten. Die letzte ungelöste Aufgabe kostet mehr als eine unvollständige.\n\nWelcher der drei trifft dich am ehesten?",
+  "hashtags": [
+    "#wirtschaftsfachwirt",
+    "#ihkprüfung",
+    "#prüfungstipps",
+    "#weiterbildung",
+    "#fachwirt",
+    "#aufstiegsfortbildung",
+    "#lernen"
+  ]
+}
