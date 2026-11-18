@@ -58,11 +58,8 @@ def caption(p):
 
 
 def bild(p):
-    """Facebook bekommt immer eine Folie: den Aufhaenger."""
-    if p["format"] == "reel":
-        # Reels haben keine JPEGs; die Frageseite wird dafuer gerendert.
-        return f"https://spuhane.github.io/reel-fabrik/posts/{p['id']}-fb.jpg"
-    return p["images"][0]
+    """Facebook bekommt immer ein eigenes Bild ohne Seitenzaehler (render_facebook.py)."""
+    return f"https://spuhane.github.io/reel-fabrik/posts/{p['id']}-fb.jpg"
 
 
 if __name__ == "__main__":

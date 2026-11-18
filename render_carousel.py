@@ -53,7 +53,8 @@ def header(img, brand, topic, page, pages):
     d.text((MX + 88, 106), brand["name"], font=font("InterDisplay-SemiBold", 34),
            fill=txt + (255,), anchor="lm")
     # Seitenzaehler
-    d.text((W - MX, 106), f"{page}/{pages}", font=font("Inter-Medium", 30),
+    if pages and pages > 1:
+      d.text((W - MX, 106), f"{page}/{pages}", font=font("Inter-Medium", 30),
            fill=dim + (255,), anchor="rm")
     # Themen-Chip
     if topic:
@@ -77,7 +78,7 @@ def footer(img, brand, text, highlight=False):
                fill=hex2rgb(brand["text_dim"]) + (255,), anchor="mm")
 
 
-def slide_question(brand, q, topic, page, pages):
+def slide_question(brand, q, topic, page, pages, hint="Antwort auf der nächsten Folie  →"):
     img = background(brand)
     header(img, brand, topic, page, pages)
     d = ImageDraw.Draw(img)
@@ -110,7 +111,7 @@ def slide_question(brand, q, topic, page, pages):
             ty += 44
         y += box_h + 18
 
-    footer(img, brand, "Antwort auf der nächsten Folie  →")
+    footer(img, brand, hint)
     return img
 
 

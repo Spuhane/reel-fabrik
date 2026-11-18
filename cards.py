@@ -130,7 +130,7 @@ def slide_verwechslung(brand, p, page, pages):
 
 
 # ---------- Typ: Erklaerung ----------
-def slide_begriff(brand, p, page, pages):
+def slide_begriff(brand, p, page, pages, hint="Was dahintersteckt  →"):
     img = background(brand)
     header(img, brand, p["topic"], page, pages)
     d = ImageDraw.Draw(img)
@@ -146,7 +146,7 @@ def slide_begriff(brand, p, page, pages):
     for ln in tl:
         d.text((MX, y), ln, font=tf, fill=txt + (255,), anchor="la")
         y += int(ts * 1.16)
-    footer(img, brand, "Was dahintersteckt  →")
+    footer(img, brand, hint)
     return img
 
 
@@ -170,7 +170,7 @@ def slide_text(brand, p, page, pages, title, body):
 
 
 # ---------- Typ: Raetsel ----------
-def slide_raetsel(brand, p, page, pages):
+def slide_raetsel(brand, p, page, pages, hint="Lösung auf der nächsten Folie  →"):
     img = background(brand)
     header(img, brand, p["topic"], page, pages)
     d = ImageDraw.Draw(img)
@@ -197,7 +197,7 @@ def slide_raetsel(brand, p, page, pages):
     for ln in fl:
         d.text((MX, y), ln, font=ff, fill=txt + (255,), anchor="la")
         y += int(fs * 1.2)
-    footer(img, brand, "Lösung auf der nächsten Folie  →")
+    footer(img, brand, hint)
     return img
 
 
